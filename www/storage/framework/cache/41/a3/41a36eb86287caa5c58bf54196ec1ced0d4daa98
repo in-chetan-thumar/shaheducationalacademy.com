@@ -1,0 +1,47 @@
+1584942286a:1:{s:16:"rightsidebar.htm";a:7:{s:8:"fileName";s:16:"rightsidebar.htm";s:7:"content";s:2169:"description = "rightsidebar"
+
+[viewBag]
+==
+<!-- BEGIN .sidebar-right -->
+		<div class="sidebar-right page-content">
+		
+			<div class="widget content-block">			
+			
+			<div class="widget saw_announcements horizontal">
+								
+				<h3 class="block-title">Announcement</h3>				
+				<ul id="saw_ticker-small_announcement">
+					<li class="saw_msg">
+					    <span class="saw_title">FYJC batches commence from june.</span><span class="saw_separator"></span> <span class="saw_content"></span></li><li class="saw_msg"><span class="saw_title">SYJC batches commence</span><span class="saw_separator"></span> <span class="saw_content"></span></li><li class="saw_msg"><span class="saw_title">C.S. batch registrations start.</span><span class="saw_separator"></span> <span class="saw_content"></span></li><li class="saw_msg"><span class="saw_title">Seminar on CA and CS as a career (contact office)</span><span class="saw_separator"></span> <span class="saw_content"></span></li><li class="saw_msg"><span class="saw_title">90% CPT Results</span><span class="saw_separator"></span> <span class="saw_content"><a href="http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000.jpg"><img src="http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000.jpg" alt="img-20170121-wa0000" class="aligncenter size-full wp-image-1128" srcset="http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000.jpg 768w, http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000-180x300.jpg 180w, http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000-614x1024.jpg 614w, http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000-60x100.jpg 60w" sizes="(max-width: 768px) 100vw, 768px" /></a></span></li>				</ul>
+			</div>
+			</div>			
+			<div class="widget content-block">Testimonials		<div class='content_display' id="testi_slider_1584327600_300">	
+					</div>
+		</div>
+		<div class="widget content-block">
+		    <h3 class="block-title">Quick Links</h3>
+        
+		</div>	
+		<!-- END .sidebar-right -->
+		</div>";s:5:"mtime";i:1584698196;s:6:"markup";s:2122:"<!-- BEGIN .sidebar-right -->
+		<div class="sidebar-right page-content">
+		
+			<div class="widget content-block">			
+			
+			<div class="widget saw_announcements horizontal">
+								
+				<h3 class="block-title">Announcement</h3>				
+				<ul id="saw_ticker-small_announcement">
+					<li class="saw_msg">
+					    <span class="saw_title">FYJC batches commence from june.</span><span class="saw_separator"></span> <span class="saw_content"></span></li><li class="saw_msg"><span class="saw_title">SYJC batches commence</span><span class="saw_separator"></span> <span class="saw_content"></span></li><li class="saw_msg"><span class="saw_title">C.S. batch registrations start.</span><span class="saw_separator"></span> <span class="saw_content"></span></li><li class="saw_msg"><span class="saw_title">Seminar on CA and CS as a career (contact office)</span><span class="saw_separator"></span> <span class="saw_content"></span></li><li class="saw_msg"><span class="saw_title">90% CPT Results</span><span class="saw_separator"></span> <span class="saw_content"><a href="http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000.jpg"><img src="http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000.jpg" alt="img-20170121-wa0000" class="aligncenter size-full wp-image-1128" srcset="http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000.jpg 768w, http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000-180x300.jpg 180w, http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000-614x1024.jpg 614w, http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000-60x100.jpg 60w" sizes="(max-width: 768px) 100vw, 768px" /></a></span></li>				</ul>
+			</div>
+			</div>			
+			<div class="widget content-block">Testimonials		<div class='content_display' id="testi_slider_1584327600_300">	
+					</div>
+		</div>
+		<div class="widget content-block">
+		    <h3 class="block-title">Quick Links</h3>
+        
+		</div>	
+		<!-- END .sidebar-right -->
+		</div>";s:4:"code";N;s:11:"description";s:12:"rightsidebar";s:7:"viewBag";a:0:{}}}

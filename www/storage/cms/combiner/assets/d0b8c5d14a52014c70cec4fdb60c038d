@@ -1,0 +1,142 @@
+h1, h2, h3, h4, h5, h6, .slides .flex-caption p, .page-content blockquote, .event-full .event-info h4, .page-content table th, #cancel-comment-reply-link {
+	font-family: 'Merriweather', serif !important;}body {
+			background: url(http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/bg_vertical.png) fixed Repeat-x !important;
+		}#header-top, 
+		.block-title,
+		#reply-title,
+		.page-content table th, 
+		.block-title, 
+		.event-m,
+		.pagination-wrapper .selected,
+		.pagination-wrapper a:hover,
+		.wp-pagenavi .current,
+		.wp-pagenavi a:hover,
+		.teacher-4 li h3.teacher-title,
+		.blog-entry .blog-info .blog-date,
+		.page-title .page-title-block,
+		.title-block {
+			background: #035398 !important;
+		}#logo h1 span, 
+		table tr a, 
+		.event-info h4 a, 
+		.news-content h4 a, 
+		.blog-entry .blog-info .blog-date, 
+		.blog-entry .blog-content h3 a,
+		.sidebar-right #twitter_update_list li a,
+		.sidebar-left #twitter_update_list li a,
+		#footer .widget .latest-posts-list li .lpl-content h6 span,
+		.widget .latest-posts-list li .lpl-content h6 a,
+		.title1 h4 a,
+		.tp_recent_tweets .twitter_time,
+		.tp_recent_tweets a {
+			color: #035398 !important;
+		}#main-menu li.current_page_item, 
+		#main-menu li:hover,
+		.slider .flex-direction-nav .flex-prev,
+		.slider .flex-direction-nav .flex-next,
+		.page-content blockquote,
+		.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+		.pagination-wrapper .selected,
+		.pagination-wrapper a:hover,
+		.wp-pagenavi .current,
+		.wp-pagenavi a:hover,
+		.page-slider .flex-direction-nav .flex-prev,
+		.page-slider .flex-direction-nav .flex-next {
+			border-color: #035398 !important;
+		}.slider .flex-direction-nav .flex-prev,
+		.slider .flex-direction-nav .flex-next,
+		.twitter-icon:hover,
+		.facebook-icon:hover,
+		.gplus-icon:hover,
+		.pinterest-icon:hover,
+		.flickr-icon:hover,
+		.youtube-icon:hover,
+		.vimeo-icon:hover,
+		.skype-icon:hover,
+		.rss-icon:hover,
+		.course-finder-full .course-finder-icon,
+		.page-slider .flex-direction-nav .flex-prev,
+		.page-slider .flex-direction-nav .flex-next {
+			background-color: #035398 !important;
+		}#footer-wrapper {
+			width: 100%;
+			background: #1f2b34 !important;
+		}#footer-bottom, #footer .tagcloud a, #footer .widget-title-block, .course-finder-full-form {
+			background: #1f2b34 !important;
+		}#footer #twitter_update_list li a, #footer-bottom p, #footer .tp_recent_tweets .twitter_time, #footer .tp_recent_tweets a {
+			color: #fe1a28 !important;
+		}.top-left-nav li span, #header-top a:hover {
+			color: #000000 !important;
+		}.slider .slides li {
+			max-height: 400px;
+		}.loading .slide-loader {
+	 		min-height: 400px;
+		}#header-wrapper {
+		 	position: absolute;
+		}body { background-position:center 10px !important; background-color:#dedede !important;}
+
+
+		#footer .tagcloud a {background: none repeat scroll 0 0 #0778da !important;}
+
+		#footer .widget-title-block {background: none repeat scroll 0 0 #0778da !important;}
+
+		#footer-bottom p {color: #fff !important;}
+		#footer-bottom .fl a {color: #f48f17 !important;}
+			.huge_it_slideshow_dots_thumbnails_2{opacity:0.2!important;}
+
+.header-block-5{font-size:16px !important;}
+.page-content table{border:1px solid #e9e9e9;}
+.inner-content-wrapper ul#sitemap li a{color:#035398;}
+
+.page-content ul, .list, .list2, .list3, .list4 {
+	margin: 14px 0 30px 0!important;
+}
+#ss_pages ul.page_item_list li.page_item a{color:#035398; font-weight:normal !important;}
+
+.saw_title {font-weight: normal !important;}
+
+div.saw_announcements {
+					width: 200px;
+					overflow: hidden;
+				}
+				
+				div.saw_announcements.horizontal ul#saw_ticker-small_announcement {
+				    width: 400px;
+				    height: 120px;
+				    overflow: hidden;
+				    margin: 0px;
+				}
+				
+				div.saw_announcements.vertical ul#saw_ticker-small_announcement {
+				    width: 200px;
+				    height: 120px;
+				    overflow: hidden;
+				    margin: 0px;
+				}
+				 
+				ul#saw_ticker-small_announcement  li {
+				    width: 200px;
+				    height: 120px;
+				    padding: 0px;
+				    display: block;
+				    float: left;
+				}
+				 
+				ul#saw_ticker-small_announcement li a {
+				    color: #0000ff;
+				}
+				
+				ul#saw_ticker-small_announcement li span {
+				    display: inline;
+				    color: #333333;
+				}
+				
+				.saw_title {
+					font-weight: bold;
+				}
+
+				.rpwwt-widget ul { list-style: outside none none; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+.rpwwt-widget ul li { overflow: hidden; margin: 0 0 1.5em; }
+.rpwwt-widget ul li:last-child { margin: 0; }
+.rpwwt-widget ul li img { display: inline; float: left; margin: .3em .75em .75em 0; }
+#rpwwt-recent-posts-widget-with-thumbnails-1 img { width: 75px; height: 75px; }

@@ -1,0 +1,149 @@
+1584695332a:1:{s:20:"staticpagelayout.htm";a:8:{s:8:"fileName";s:20:"staticpagelayout.htm";s:7:"content";s:2759:"[viewBag]
+
+[staticMenu]
+code = "headermenu"
+
+[carousel]
+id = 1
+==
+<html>
+<head>
+    <link rel="shortcut icon" href="http://www.shaheducationalacademy.com/wp-content/uploads/2015/02/favicone1.png" type="image/x-icon" />
+    <!-- Title -->
+    <title>Shah Educational Academy | Shah Educational Academy</title>
+    {% styles %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="{{ [
+        'assets/css/main.css'
+        ]|theme }}" rel="stylesheet">
+    <link href="{{ [
+        'assets/css/theme.css'
+        ]|theme }}" rel="stylesheet">
+    <!-- END head -->
+</head>
+<!-- BEGIN body -->
+<body id="top" class="home page-template page-template-page-templates page-template-template-homepage page-template-page-templatestemplate-homepage-php page page-id-26 loading">
+    <!-- BEGIN #header-wrapper -->
+    <div id="header-wrapper">
+        {% partial "header" %}
+        <!-- END #header-content-wrapper -->
+   
+    <!-- BEGIN #main-menu-wrapper -->
+     <div id="main-menu-wrapper" class="header-menu">
+            {% component 'staticMenu' %}
+      <!-- END #main-menu-wrapper -->
+    </div>
+     </div>
+
+    <div class="slider clearfix">
+        	{% component 'carousel' %}
+    </div>
+
+    <!--marquee start-->
+    {% partial 'marquee' %}
+    <!--marquee end-->
+    <!-- BEGIN .content-wrapper -->
+    <div class="content-wrapper clearfix">
+        <!-- BEGIN .content-wrapper-inner -->
+        <div class="content-wrapper-inner clearfix">
+        
+            <!-- BEGIN .center-content -->
+            <div class="center-content page-content">
+                <div class="widget content-block">
+                    <div class="textwidget">
+                        <div style="font-size: 15px; line-height: 26px;">
+                            <h1>{{this.page.title}}</h1>
+                            {% page %}
+                        </div>
+                    </div>
+                </div>
+                <!-- END .center-content -->
+            </div>
+            <!-- BEGIN .sidebar-right -->
+            {% partial 'rightsidebar' %}
+            <!-- END .content-wrapper-inner -->
+        </div>
+        <!-- END .content-wrapper -->
+    </div>
+    {% partial "footer" %}		
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>	
+      <script type="text/javascript">
+          $(document).ready(function(){
+              $('#main-menu-wrapper').find('ul').attr('id', 'main-menu');
+;
+          });
+      </script>
+    <!--End of Tawk.to Script-->
+</body>
+</html>";s:5:"mtime";i:1584694385;s:6:"markup";s:2685:"<html>
+<head>
+    <link rel="shortcut icon" href="http://www.shaheducationalacademy.com/wp-content/uploads/2015/02/favicone1.png" type="image/x-icon" />
+    <!-- Title -->
+    <title>Shah Educational Academy | Shah Educational Academy</title>
+    {% styles %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="{{ [
+        'assets/css/main.css'
+        ]|theme }}" rel="stylesheet">
+    <link href="{{ [
+        'assets/css/theme.css'
+        ]|theme }}" rel="stylesheet">
+    <!-- END head -->
+</head>
+<!-- BEGIN body -->
+<body id="top" class="home page-template page-template-page-templates page-template-template-homepage page-template-page-templatestemplate-homepage-php page page-id-26 loading">
+    <!-- BEGIN #header-wrapper -->
+    <div id="header-wrapper">
+        {% partial "header" %}
+        <!-- END #header-content-wrapper -->
+   
+    <!-- BEGIN #main-menu-wrapper -->
+     <div id="main-menu-wrapper" class="header-menu">
+            {% component 'staticMenu' %}
+      <!-- END #main-menu-wrapper -->
+    </div>
+     </div>
+
+    <div class="slider clearfix">
+        	{% component 'carousel' %}
+    </div>
+
+    <!--marquee start-->
+    {% partial 'marquee' %}
+    <!--marquee end-->
+    <!-- BEGIN .content-wrapper -->
+    <div class="content-wrapper clearfix">
+        <!-- BEGIN .content-wrapper-inner -->
+        <div class="content-wrapper-inner clearfix">
+        
+            <!-- BEGIN .center-content -->
+            <div class="center-content page-content">
+                <div class="widget content-block">
+                    <div class="textwidget">
+                        <div style="font-size: 15px; line-height: 26px;">
+                            <h1>{{this.page.title}}</h1>
+                            {% page %}
+                        </div>
+                    </div>
+                </div>
+                <!-- END .center-content -->
+            </div>
+            <!-- BEGIN .sidebar-right -->
+            {% partial 'rightsidebar' %}
+            <!-- END .content-wrapper-inner -->
+        </div>
+        <!-- END .content-wrapper -->
+    </div>
+    {% partial "footer" %}		
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>	
+      <script type="text/javascript">
+          $(document).ready(function(){
+              $('#main-menu-wrapper').find('ul').attr('id', 'main-menu');
+;
+          });
+      </script>
+    <!--End of Tawk.to Script-->
+</body>
+</html>";s:4:"code";N;s:7:"viewBag";a:0:{}s:10:"staticMenu";a:1:{s:4:"code";s:10:"headermenu";}s:8:"carousel";a:1:{s:2:"id";s:1:"1";}}}

@@ -1,0 +1,500 @@
+.=====================================================================.
+                                                                       
+  .d8888b.   .o8888b.  db  .d8888b.  d8888b. d88888b d8888b.  .d888b.  
+ .8P    Y8. d8P    Y8  88 .8P    Y8. 88  `8D 88'     88  `8D .8P , Y8. 
+ 88      88 8P     .ooo88 88      88 88oooY' 88oooo  88oobY' 88  |  88 
+ 88      88 8b     `~~~88 88      88 88~~~b. 88~~~~  88`8b   88  |/ 88 
+ `8b    d8' Y8b    d8  88 `8b    d8' 88   8D 88.     88 `88. `8b | d8' 
+  `Y8888P'   `Y8888P'  YP  `Y8888P'  Y8888P' Y88888P 88   YD  `Y888P'  
+                                                                       
+`========================== INSTALLATION LOG ========================='
+
+[2020/03/12 01:33:11] Host: Windows NT DESKTOP-508RVBE 10.0 build 18362 (Windows 10) i586
+[2020/03/12 01:33:11] PHP version: 7.0.23
+[2020/03/12 01:33:11] Server software: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.0.23
+[2020/03/12 01:33:11] Operating system: WINNT
+[2020/03/12 01:33:11] Memory limit: 128M
+[2020/03/12 01:33:11] Max execution time: 3600
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:12] Postback payload: Array
+(
+    [code] => phpVersion
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:12] System check: phpVersion
+[2020/03/12 01:33:12] Requirement phpVersion +OK
+[2020/03/12 01:33:12] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:12] Postback payload: Array
+(
+    [code] => curlLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:12] System check: curlLibrary
+[2020/03/12 01:33:12] Requirement curlLibrary +OK
+[2020/03/12 01:33:12] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:13] Postback payload: Array
+(
+    [code] => liveConnection
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:13] System check: liveConnection
+[2020/03/12 01:33:14] Server request: ping
+[2020/03/12 01:33:14] Request information: Array
+(
+    [url] => http://gateway.octobercms.com/api/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 688
+    [request_size] => 187
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 4295.686296
+    [namelookup_time] => 0.062
+    [connect_time] => 0.328
+    [pretransfer_time] => 0.328
+    [size_upload] => 48
+    [size_download] => 12
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => 48
+    [starttransfer_time] => 4295.686296
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 54.214.90.182
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.126
+    [local_port] => 63282
+)
+
+[2020/03/12 01:33:14] Requirement liveConnection +OK
+[2020/03/12 01:33:14] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:14] Postback payload: Array
+(
+    [code] => writePermission
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:14] System check: writePermission
+[2020/03/12 01:33:14] Requirement writePermission +OK
+[2020/03/12 01:33:14] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:15] Postback payload: Array
+(
+    [code] => pdoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:15] System check: pdoLibrary
+[2020/03/12 01:33:15] Requirement pdoLibrary +OK
+[2020/03/12 01:33:15] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:15] Postback payload: Array
+(
+    [code] => mbstringLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:15] System check: mbstringLibrary
+[2020/03/12 01:33:15] Requirement mbstringLibrary +OK
+[2020/03/12 01:33:15] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:16] Postback payload: Array
+(
+    [code] => fileinfoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:16] System check: fileinfoLibrary
+[2020/03/12 01:33:16] Requirement fileinfoLibrary +OK
+[2020/03/12 01:33:16] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:16] Postback payload: Array
+(
+    [code] => sslLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:16] System check: sslLibrary
+[2020/03/12 01:33:16] Requirement sslLibrary +OK
+[2020/03/12 01:33:16] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:17] Postback payload: Array
+(
+    [code] => zipLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:17] System check: zipLibrary
+[2020/03/12 01:33:17] Requirement zipLibrary +OK
+[2020/03/12 01:33:17] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:33:17] Postback payload: Array
+(
+    [code] => gdLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/03/12 01:33:17] System check: gdLibrary
+[2020/03/12 01:33:17] Requirement gdLibrary +OK
+[2020/03/12 01:33:17] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:34:43] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 3306
+    [db_name] => test
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [handler] => onValidateDatabase
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:34:43] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 3306
+    [db_name] => test
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [handler] => onValidateAdminAccount
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:34:43] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 3306
+    [db_name] => test
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [handler] => onValidateAdvancedConfig
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:34:53] Postback payload: Array
+(
+    [step] => getMetaData
+    [meta] => 
+    [handler] => onInstallStep
+)
+
+[2020/03/12 01:34:53] Install step: getMetaData
+[2020/03/12 01:34:54] Server request: core/install
+[2020/03/12 01:34:54] Request information: Array
+(
+    [url] => http://gateway.octobercms.com/api/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 688
+    [request_size] => 195
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 4295.748296
+    [namelookup_time] => 0.031
+    [connect_time] => 4295.264296
+    [pretransfer_time] => 4295.264296
+    [size_upload] => 48
+    [size_download] => 132
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => 48
+    [starttransfer_time] => 4295.748296
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 54.214.90.182
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.126
+    [local_port] => 63299
+)
+
+[2020/03/12 01:34:54] Step getMetaData +OK
+[2020/03/12 01:34:54] Execute handler (onInstallStep): Array
+(
+    [result] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                )
+
+            [themes] => Array
+                (
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:34:55] Postback payload: Array
+(
+    [step] => downloadCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2020/03/12 01:34:55] Install step: downloadCore
+[2020/03/12 01:35:49] Saving to file (core): E:/xampp7.0.23/htdocs/shaheducation/install_files/temp/a74ad8dfacd4f985eb3977517615ce25.arc
+[2020/03/12 01:35:49] Step downloadCore +OK
+[2020/03/12 01:35:49] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:35:49] Postback payload: Array
+(
+    [step] => extractCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2020/03/12 01:35:49] Install step: extractCore
+[2020/03/12 01:35:49] Extracting file (core): a74ad8dfacd4f985eb3977517615ce25.arc
+[2020/03/12 01:38:04] Step extractCore +OK
+[2020/03/12 01:38:04] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:38:05] Postback payload: Array
+(
+    [step] => setupConfig
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 3306
+    [db_name] => test
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [handler] => onInstallStep
+)
+
+[2020/03/12 01:38:05] Install step: setupConfig
+[2020/03/12 12:38:05] Step setupConfig +OK
+[2020/03/12 12:38:05] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:38:06] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 3306
+    [db_name] => test
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [handler] => onInstallStep
+)
+
+[2020/03/12 01:38:06] Install step: createAdmin
+[2020/03/12 12:38:34] Step createAdmin +OK
+[2020/03/12 12:38:34] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:38:34] Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/03/12 01:38:34] Install step: setupProject
+[2020/03/12 01:38:34] Step setupProject +OK
+[2020/03/12 01:38:34] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/03/12 01:38:35] Postback payload: Array
+(
+    [step] => finishInstall
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+        )
+
+    [hash] => 2737f2becb468734b4ac6d9383396332
+    [build] => 464
+    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+    [handler] => onInstallStep
+)
+
+[2020/03/12 01:38:35] Install step: finishInstall
+[2020/03/12 12:38:35] Cleaning up file: a74ad8dfacd4f985eb3977517615ce25.arc
+[2020/03/12 12:38:35] Step finishInstall +OK
+[2020/03/12 12:38:35] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
