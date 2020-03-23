@@ -43,8 +43,10 @@ items:
                 title: 'WHY SEA?'
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: who-we-are-sea-advantage
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -80,26 +82,39 @@ items:
                 items:
                     -
                         title: F.Y.J.C.
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
+                        url: ''
                         code: ''
-                        reference: ''
+                        reference: courses-undergraduate-courses-f-y-j-c
                         cmsPage: ''
-                        replace: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: S.Y.J.C
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-s-y-j-c
+                        cmsPage: ''
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
                     -
                         title: 'ISC COMMERCE'
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
+                        url: ''
                         code: ''
-                        reference: ''
+                        reference: courses-undergraduate-courses-isc-commerce
                         cmsPage: ''
-                        replace: ''
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -120,26 +135,24 @@ items:
                 items:
                     -
                         title: B.COM
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
+                        url: ''
                         code: ''
-                        reference: ''
+                        reference: courses-graduate-courses-b-com
                         cmsPage: ''
-                        replace: ''
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
                     -
                         title: B.M.S.
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
                         code: ''
-                        reference: ''
-                        cmsPage: ''
-                        replace: ''
+                        reference: courses-graduate-courses-b-m-s
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -264,19 +277,6 @@ items:
                     isExternal: '0'
             -
                 title: SEMINARS
-                nesting: ''
-                type: url
-                url: /
-                code: ''
-                reference: ''
-                cmsPage: ''
-                replace: ''
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: S.Y.J.C.
                 nesting: ''
                 type: url
                 url: /

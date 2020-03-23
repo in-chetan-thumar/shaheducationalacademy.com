@@ -1,10 +1,14 @@
-1584943645a:1:{s:11:"default.htm";a:8:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2701:"[viewBag]
+1584960157a:1:{s:11:"default.htm";a:9:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2746:"[viewBag]
 
 [staticMenu]
 code = "headermenu"
 
 [carousel]
 id = 1
+
+[staticPage]
+useContent = 1
+default = 0
 ==
 <html>
 <head>
@@ -75,7 +79,7 @@ id = 1
       </script>
     <!--End of Tawk.to Script-->
 </body>
-</html>";s:5:"mtime";i:1584688578;s:6:"markup";s:2627:"<html>
+</html>";s:5:"mtime";i:1584952887;s:6:"markup";s:2627:"<html>
 <head>
     <link rel="shortcut icon" href="http://www.shaheducationalacademy.com/wp-content/uploads/2015/02/favicone1.png" type="image/x-icon" />
     <!-- Title -->
@@ -144,4 +148,4 @@ id = 1
       </script>
     <!--End of Tawk.to Script-->
 </body>
-</html>";s:4:"code";N;s:7:"viewBag";a:0:{}s:10:"staticMenu";a:1:{s:4:"code";s:10:"headermenu";}s:8:"carousel";a:1:{s:2:"id";s:1:"1";}}}
+</html>";s:4:"code";N;s:7:"viewBag";a:0:{}s:10:"staticMenu";a:1:{s:4:"code";s:10:"headermenu";}s:8:"carousel";a:1:{s:2:"id";s:1:"1";}s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"0";}}}

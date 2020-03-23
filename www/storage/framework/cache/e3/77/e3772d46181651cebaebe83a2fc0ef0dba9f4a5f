@@ -1,5 +1,10 @@
-1584943646a:1:{s:17:"static-pages.yaml";a:5:{s:8:"fileName";s:17:"static-pages.yaml";s:7:"content";s:117:"static-pages:
+1584960152a:1:{s:17:"static-pages.yaml";a:5:{s:8:"fileName";s:17:"static-pages.yaml";s:7:"content";s:341:"static-pages:
     contactus: {  }
     who-we-are-sea-advantage: {  }
     courses-undergraduate-courses-f-y-j-c: {  }
-";s:5:"mtime";i:1584703827;s:6:"markup";N;s:4:"code";N;}}
+    courses-undergraduate-courses-s-y-j-c: {  }
+    courses-undergraduate-courses-isc-commerce: {  }
+    courses-graduate-courses-b-com: {  }
+    courses-graduate-courses-b-m-s: {  }
+    courses-graduate-courses-b-a-f: {  }
+";s:5:"mtime";i:1584958865;s:6:"markup";N;s:4:"code";N;}}
