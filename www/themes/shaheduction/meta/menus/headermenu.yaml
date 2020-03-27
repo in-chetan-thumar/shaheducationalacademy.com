@@ -214,13 +214,13 @@ items:
                 items:
                     -
                         title: 'CHARTERED ACCOUNTANCY (C.A.)'
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
+                        url: ''
                         code: ''
-                        reference: ''
+                        reference: professional-courses-chartered-accountancy-c-a
                         cmsPage: ''
-                        replace: ''
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -229,8 +229,10 @@ items:
                         title: 'COMPANY SECRETARY (C.S.)'
                         nesting: '0'
                         type: static-page
+                        url: ''
                         code: ''
                         reference: professional-courses-company-secretary-c-s
+                        cmsPage: ''
                         replace: '0'
                         viewBag:
                             isHidden: '0'
@@ -240,8 +242,10 @@ items:
                         title: M.COM
                         nesting: '0'
                         type: static-page
+                        url: ''
                         code: ''
                         reference: professional-courses-m-com
+                        cmsPage: ''
                         replace: '0'
                         viewBag:
                             isHidden: '0'
@@ -249,26 +253,24 @@ items:
                             isExternal: '0'
             -
                 title: 'TEST SERIES'
-                nesting: ''
-                type: url
-                url: /
+                nesting: '0'
+                type: static-page
+                url: ''
                 code: ''
-                reference: ''
+                reference: courses-test-series
                 cmsPage: ''
-                replace: ''
+                replace: '0'
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
             -
                 title: 'CRASH COURSE'
-                nesting: ''
-                type: url
-                url: /
+                nesting: '0'
+                type: static-page
                 code: ''
-                reference: ''
-                cmsPage: ''
-                replace: ''
+                reference: courses-crash-course
+                replace: '0'
                 viewBag:
                     isHidden: '0'
                     cssClass: ''

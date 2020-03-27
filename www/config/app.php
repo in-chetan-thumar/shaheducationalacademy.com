@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'http://lc.shaheducation.tiez.net/',
+    'url' => env('APP_URL', 'http://lc.shaheducation.tiez.net/'),
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'key' => 'BrHL2Ufx8B3cpHMTH5XinG7FNPwm1Mtq',
+    'key' => env('APP_KEY', ''),
 
     'cipher' => 'AES-256-CBC',
 

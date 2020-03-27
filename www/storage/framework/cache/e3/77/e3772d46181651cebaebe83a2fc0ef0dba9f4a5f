@@ -1,4 +1,4 @@
-1585312028a:1:{s:17:"static-pages.yaml";a:5:{s:8:"fileName";s:17:"static-pages.yaml";s:7:"content";s:600:"static-pages:
+1585318464a:1:{s:17:"static-pages.yaml";a:5:{s:8:"fileName";s:17:"static-pages.yaml";s:7:"content";s:631:"static-pages:
     contactus: {  }
     who-we-are-sea-advantage: {  }
     courses-undergraduate-courses-f-y-j-c: {  }
@@ -13,4 +13,5 @@
     professional-courses-company-secretary-c-s: {  }
     professional-courses-m-com: {  }
     courses-test-series: {  }
-";s:5:"mtime";i:1585306288;s:6:"markup";N;s:4:"code";N;}}
+    courses-crash-course: {  }
+";s:5:"mtime";i:1585314757;s:6:"markup";N;s:4:"code";N;}}
