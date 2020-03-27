@@ -150,8 +150,10 @@ items:
                         title: B.M.S.
                         nesting: '0'
                         type: static-page
+                        url: ''
                         code: ''
                         reference: courses-graduate-courses-b-m-s
+                        cmsPage: ''
                         replace: '0'
                         viewBag:
                             isHidden: '0'
@@ -159,39 +161,39 @@ items:
                             isExternal: '0'
                     -
                         title: B.A.F
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
+                        url: ''
                         code: ''
-                        reference: ''
+                        reference: courses-graduate-courses-b-a-f
                         cmsPage: ''
-                        replace: ''
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
                     -
                         title: B.B.I
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
+                        url: ''
                         code: ''
-                        reference: ''
+                        reference: courses-graduate-courses-b-b-i
                         cmsPage: ''
-                        replace: ''
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
                     -
                         title: B.F.M.
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
+                        url: ''
                         code: ''
-                        reference: ''
+                        reference: courses-graduate-courses-b-f-m
                         cmsPage: ''
-                        replace: ''
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -225,26 +227,22 @@ items:
                             isExternal: '0'
                     -
                         title: 'COMPANY SECRETARY (C.S.)'
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
                         code: ''
-                        reference: ''
-                        cmsPage: ''
-                        replace: ''
+                        reference: professional-courses-company-secretary-c-s
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
                     -
                         title: M.COM
-                        nesting: ''
-                        type: url
-                        url: /
+                        nesting: '0'
+                        type: static-page
                         code: ''
-                        reference: ''
-                        cmsPage: ''
-                        replace: ''
+                        reference: professional-courses-m-com
+                        replace: '0'
                         viewBag:
                             isHidden: '0'
                             cssClass: ''

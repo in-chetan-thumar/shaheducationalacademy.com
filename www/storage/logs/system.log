@@ -10859,3 +10859,2539 @@ navigation_hidden = 0
 			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
 	</div></div>  
 [2020-03-23 10:18:11] development.INFO: Content not dirty for: content/static-pages/courses-graduate-courses-b-m-s.htm  
+[2020-03-27 06:16:50] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:16:50] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:16:50] development.INFO: Content not dirty for: content/static-pages/courses-graduate-courses-b-b-i.htm  
+[2020-03-27 06:17:18] development.INFO: items:
+    -
+        title: HOME
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: home
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'WHO WE ARE'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: main-menu
+            isExternal: '0'
+        items:
+            -
+                title: 'DIRECTORS PROFILE'
+                nesting: ''
+                type: cms-page
+                url: ''
+                code: ''
+                reference: directors-profile
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'WHY SEA?'
+                nesting: '0'
+                type: static-page
+                url: ''
+                code: ''
+                reference: who-we-are-sea-advantage
+                cmsPage: ''
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: COURSES
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'UNDERGREDUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: F.Y.J.C.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-f-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: S.Y.J.C
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-s-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'ISC COMMERCE'
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-isc-commerce
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'GRADUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: B.COM
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-com
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.M.S.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-m-s
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.A.F
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-a-f
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.B.I
+                        nesting: '0'
+                        type: static-page
+                        code: ''
+                        reference: courses-graduate-courses-b-b-i
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.F.M.
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'PROFESSIONAL COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: 'CHARTERED ACCOUNTANCY (C.A.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'COMPANY SECRETARY (C.S.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: M.COM
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'TEST SERIES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'CRASH COURSE'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: SEMINARS
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: RESULT
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'SEA CONNECT'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: CONTACT
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: contactus
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: headermenu
+  
+[2020-03-27 06:17:18] development.INFO: items:
+    -
+        title: HOME
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: home
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'WHO WE ARE'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: main-menu
+            isExternal: '0'
+        items:
+            -
+                title: 'DIRECTORS PROFILE'
+                nesting: ''
+                type: cms-page
+                url: ''
+                code: ''
+                reference: directors-profile
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'WHY SEA?'
+                nesting: '0'
+                type: static-page
+                url: ''
+                code: ''
+                reference: who-we-are-sea-advantage
+                cmsPage: ''
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: COURSES
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'UNDERGREDUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: F.Y.J.C.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-f-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: S.Y.J.C
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-s-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'ISC COMMERCE'
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-isc-commerce
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'GRADUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: B.COM
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-com
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.M.S.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-m-s
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.A.F
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-a-f
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.B.I
+                        nesting: '0'
+                        type: static-page
+                        code: ''
+                        reference: courses-graduate-courses-b-b-i
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.F.M.
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'PROFESSIONAL COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: 'CHARTERED ACCOUNTANCY (C.A.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'COMPANY SECRETARY (C.S.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: M.COM
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'TEST SERIES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'CRASH COURSE'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: SEMINARS
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: RESULT
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'SEA CONNECT'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: CONTACT
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: contactus
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: headermenu
+  
+[2020-03-27 06:17:18] development.INFO: items:
+    -
+        title: HOME
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: home
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'WHO WE ARE'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: main-menu
+            isExternal: '0'
+        items:
+            -
+                title: 'DIRECTORS PROFILE'
+                nesting: ''
+                type: cms-page
+                url: ''
+                code: ''
+                reference: directors-profile
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'WHY SEA?'
+                nesting: '0'
+                type: static-page
+                url: ''
+                code: ''
+                reference: who-we-are-sea-advantage
+                cmsPage: ''
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: COURSES
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'UNDERGREDUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: F.Y.J.C.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-f-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: S.Y.J.C
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-s-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'ISC COMMERCE'
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-isc-commerce
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'GRADUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: B.COM
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-com
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.M.S.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-m-s
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.A.F
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-a-f
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.B.I
+                        nesting: '0'
+                        type: static-page
+                        code: ''
+                        reference: courses-graduate-courses-b-b-i
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.F.M.
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'PROFESSIONAL COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: 'CHARTERED ACCOUNTANCY (C.A.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'COMPANY SECRETARY (C.S.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: M.COM
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'TEST SERIES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'CRASH COURSE'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: SEMINARS
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: RESULT
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'SEA CONNECT'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: CONTACT
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: contactus
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: headermenu
+  
+[2020-03-27 06:17:18] development.INFO: items:
+    -
+        title: HOME
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: home
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'WHO WE ARE'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: main-menu
+            isExternal: '0'
+        items:
+            -
+                title: 'DIRECTORS PROFILE'
+                nesting: ''
+                type: cms-page
+                url: ''
+                code: ''
+                reference: directors-profile
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'WHY SEA?'
+                nesting: '0'
+                type: static-page
+                url: ''
+                code: ''
+                reference: who-we-are-sea-advantage
+                cmsPage: ''
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: COURSES
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'UNDERGREDUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: F.Y.J.C.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-f-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: S.Y.J.C
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-s-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'ISC COMMERCE'
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-isc-commerce
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'GRADUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: B.COM
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-com
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.M.S.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-m-s
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.A.F
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-a-f
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.B.I
+                        nesting: '0'
+                        type: static-page
+                        code: ''
+                        reference: courses-graduate-courses-b-b-i
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.F.M.
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'PROFESSIONAL COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: 'CHARTERED ACCOUNTANCY (C.A.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'COMPANY SECRETARY (C.S.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: M.COM
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'TEST SERIES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'CRASH COURSE'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: SEMINARS
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: RESULT
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'SEA CONNECT'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: CONTACT
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: contactus
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: headermenu
+  
+[2020-03-27 06:17:18] development.INFO: Content not dirty for: meta/menus/headermenu.yaml  
+[2020-03-27 06:17:18] development.INFO: Content not dirty for: meta/menus/headermenu.yaml  
+[2020-03-27 06:17:25] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:17:25] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:17:25] development.INFO: Content not dirty for: content/static-pages/courses-graduate-courses-b-b-i.htm  
+[2020-03-27 06:46:37] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:46:37] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:46:37] development.INFO: Content not dirty for: content/static-pages/courses-graduate-courses-b-b-i.htm  
+[2020-03-27 06:47:21] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:47:21] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:47:21] development.INFO: Content not dirty for: content/static-pages/courses-graduate-courses-b-b-i.htm  
+[2020-03-27 06:47:30] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:47:30] development.INFO: [viewBag]
+title = "B.B.I"
+url = "/courses/graduate-courses/b-b-i/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BBI:</h2>
+
+	<h2 class="keyword">Bachelors In Banking and Insurance</h2>has been designed to develop an understanding of the financial theory and analysis that are particularly practically used in
+
+	<h2 class="keyword">banking and insurance sectors.</h2>The course develops the concepts and skills that are required by financial analyst operating in this environment. BBI also provides an understanding of contemporary financial problems and issues faced by banking sector and Insurance companies.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:47:30] development.INFO: Content not dirty for: content/static-pages/courses-graduate-courses-b-b-i.htm  
+[2020-03-27 06:49:36] development.INFO: [viewBag]
+title = "B.F.M."
+url = "/courses/graduate-courses/b-f-m/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BFM</h2>: The
+
+	<h2 class="keyword">Bachelors Of Finance</h2>degree introduces students to the global Economy and institutional aspects of financial systems. There is a vast coverage of the specialized financial institutions, their asset classes, and the
+
+	<h2 class="keyword">Stock Markets</h2>in which the different assets are traded.
+
+	<h2 class="keyword">BFM Course</h2>includes financial markets, valuation issues, international trade and finance, financial modelling and
+
+	<h2 class="keyword">financial management</h2>The Bachelors of Finance program comprises a range of courses in finance, economics, mathematics and statistics.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:49:36] development.INFO: [viewBag]
+title = "B.F.M."
+url = "/courses/graduate-courses/b-f-m/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BFM</h2>: The
+
+	<h2 class="keyword">Bachelors Of Finance</h2>degree introduces students to the global Economy and institutional aspects of financial systems. There is a vast coverage of the specialized financial institutions, their asset classes, and the
+
+	<h2 class="keyword">Stock Markets</h2>in which the different assets are traded.
+
+	<h2 class="keyword">BFM Course</h2>includes financial markets, valuation issues, international trade and finance, financial modelling and
+
+	<h2 class="keyword">financial management</h2>The Bachelors of Finance program comprises a range of courses in finance, economics, mathematics and statistics.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:49:36] development.INFO: Content not dirty for: content/static-pages/courses-graduate-courses-b-f-m.htm  
+[2020-03-27 06:50:04] development.INFO: [viewBag]
+title = "B.F.M."
+url = "/courses/graduate-courses/b-f-m/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BFM</h2>: The
+
+	<h2 class="keyword">Bachelors Of Finance</h2>degree introduces students to the global Economy and institutional aspects of financial systems. There is a vast coverage of the specialized financial institutions, their asset classes, and the
+
+	<h2 class="keyword">Stock Markets</h2>in which the different assets are traded.
+
+	<h2 class="keyword">BFM Course</h2>includes financial markets, valuation issues, international trade and finance, financial modelling and
+
+	<h2 class="keyword">financial management</h2>The Bachelors of Finance program comprises a range of courses in finance, economics, mathematics and statistics.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:50:04] development.INFO: [viewBag]
+title = "B.F.M."
+url = "/courses/graduate-courses/b-f-m/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">BFM</h2>: The
+
+	<h2 class="keyword">Bachelors Of Finance</h2>degree introduces students to the global Economy and institutional aspects of financial systems. There is a vast coverage of the specialized financial institutions, their asset classes, and the
+
+	<h2 class="keyword">Stock Markets</h2>in which the different assets are traded.
+
+	<h2 class="keyword">BFM Course</h2>includes financial markets, valuation issues, international trade and finance, financial modelling and
+
+	<h2 class="keyword">financial management</h2>The Bachelors of Finance program comprises a range of courses in finance, economics, mathematics and statistics.
+	<br>
+	<br><span class="text-bold-blue">Subjects Which We Teach:</span>
+
+	<ul class="moreData_nos">
+		<li><span>Accounts</span></li>
+		<li><span>Maths</span></li>
+	</ul>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 06:50:04] development.INFO: Content not dirty for: content/static-pages/courses-graduate-courses-b-f-m.htm  
+[2020-03-27 09:15:59] development.INFO: items:
+    -
+        title: HOME
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: home
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'WHO WE ARE'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: main-menu
+            isExternal: '0'
+        items:
+            -
+                title: 'DIRECTORS PROFILE'
+                nesting: ''
+                type: cms-page
+                url: ''
+                code: ''
+                reference: directors-profile
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'WHY SEA?'
+                nesting: '0'
+                type: static-page
+                url: ''
+                code: ''
+                reference: who-we-are-sea-advantage
+                cmsPage: ''
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: COURSES
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'UNDERGREDUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: F.Y.J.C.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-f-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: S.Y.J.C
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-s-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'ISC COMMERCE'
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-isc-commerce
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'GRADUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: B.COM
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-com
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.M.S.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-m-s
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.A.F
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-a-f
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.B.I
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-b-i
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.F.M.
+                        nesting: '0'
+                        type: static-page
+                        code: ''
+                        reference: courses-graduate-courses-b-f-m
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'PROFESSIONAL COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: 'CHARTERED ACCOUNTANCY (C.A.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'COMPANY SECRETARY (C.S.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: M.COM
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'TEST SERIES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'CRASH COURSE'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: SEMINARS
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: RESULT
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'SEA CONNECT'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: CONTACT
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: contactus
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: headermenu
+  
+[2020-03-27 09:15:59] development.INFO: items:
+    -
+        title: HOME
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: home
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'WHO WE ARE'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: main-menu
+            isExternal: '0'
+        items:
+            -
+                title: 'DIRECTORS PROFILE'
+                nesting: ''
+                type: cms-page
+                url: ''
+                code: ''
+                reference: directors-profile
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'WHY SEA?'
+                nesting: '0'
+                type: static-page
+                url: ''
+                code: ''
+                reference: who-we-are-sea-advantage
+                cmsPage: ''
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: COURSES
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'UNDERGREDUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: F.Y.J.C.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-f-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: S.Y.J.C
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-s-y-j-c
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'ISC COMMERCE'
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-undergraduate-courses-isc-commerce
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'GRADUATE COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: B.COM
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-com
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.M.S.
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-m-s
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.A.F
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-a-f
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.B.I
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: courses-graduate-courses-b-b-i
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: B.F.M.
+                        nesting: '0'
+                        type: static-page
+                        code: ''
+                        reference: courses-graduate-courses-b-f-m
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'PROFESSIONAL COURSES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+                items:
+                    -
+                        title: 'CHARTERED ACCOUNTANCY (C.A.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'COMPANY SECRETARY (C.S.)'
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: M.COM
+                        nesting: ''
+                        type: url
+                        url: /
+                        code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: 'TEST SERIES'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'CRASH COURSE'
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: SEMINARS
+                nesting: ''
+                type: url
+                url: /
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: RESULT
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'SEA CONNECT'
+        nesting: ''
+        type: url
+        url: /
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: CONTACT
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: contactus
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: headermenu
+  
+[2020-03-27 09:15:59] development.INFO: Content not dirty for: meta/menus/headermenu.yaml  
+[2020-03-27 10:49:04] development.INFO: [viewBag]
+title = "M.com"
+url = "/professional-courses/m-com/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">M.com</h2>is a most popular course. It’s an advance level of B.com, normally opted by commerce graduates, to develop and imbibe various skills of commerce and accountancy and provide edge for the competitive business structure to gain mastery over the subject.
+	<br>
+	<br>At SEA we prepare Students from entrance to final exams with regular sessions of doubt clearing, which empowers students in achieving anticipated results. We are The leading institute in M.com coaching in Mumbai
+	<br>
+	<br>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 10:49:04] development.INFO: [viewBag]
+title = "M.com"
+url = "/professional-courses/m-com/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="txt-size-lheight">
+
+	<h2 class="keyword">M.com</h2>is a most popular course. It’s an advance level of B.com, normally opted by commerce graduates, to develop and imbibe various skills of commerce and accountancy and provide edge for the competitive business structure to gain mastery over the subject.
+	<br>
+	<br>At SEA we prepare Students from entrance to final exams with regular sessions of doubt clearing, which empowers students in achieving anticipated results. We are The leading institute in M.com coaching in Mumbai
+	<br>
+	<br>
+	<div class="btn-holder">
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=883"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/enquiry-btn.png" class="fr-fic fr-dii"></a></p>
+
+		<p>
+			<a href="http://www.shaheducationalacademy.com/?p=894"><img alt="" src="http://www.shaheducationalacademy.com/wp-content/uploads/2015/06/batchtime-btn.png" class="fr-fic fr-dii"></a></p>
+	</div></div>  
+[2020-03-27 10:49:04] development.INFO: Content not dirty for: content/static-pages/professional-courses-m-com.htm  
+[2020-03-27 12:17:05] development.INFO: [viewBag]
+title = "Test series"
+url = "/courses/test-series/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="inner-content-wrapper">After studying throughout the year, it’s important to check what is the core strength and weakness of our students in varied subjects so that they can improve before the final exams. Shah Educational Academy is committed not only for coaching but for testing student’s real calibre and scope of improvement with our
+
+	<h2 class="keyword">SEA ADVANTAGE TEST SERIES.</h2>&nbsp; Sea Advantage Test Series is a pre
+
+	<h2 class="keyword">board exam</h2>held by Shah Educationl Academy to check the hard work of teachers and students of SEA. Here are some of the highlights of how Sea Advantage Test Series work-
+
+	<ul class="moreData_nos">
+		<li>
+
+			<h2 class="keyword">Maharashtra Board Moderators</h2>with years of experience give mentoring session and guidance to students on how to appear for paper and which are the areas to focus, from presentation to number of words every query of students are solved in these sessions.</li>
+		<li>After mentoring SEA organizes a
+
+			<h2 class="keyword">Pre Board Exam i.e A Mock Test</h2>at actual board centre’s with strict moderators of board exams.</li>
+		<li>Papers are set as per actual board pattern with bar code and category wise by
+
+			<h2 class="keyword">Board Paper setters.</h2>&nbsp;</li>
+		<li>Students have to
+
+			<h2 class="keyword">appear for the Board Exam</h2>at respective centre and as per board rules and regulations. By creating real board exam atmosphere we make students psychologically ready and prepared for the final exams.</li>
+		<li>Students papers are checked by
+
+			<h2 class="keyword">board paper checker</h2>with proper remarks so that students can improve the weak subjects and strong subjects can be made better.</li>
+		<li>Through this students have exact picture and process idea of board exams and at the last moment they just have to work on the subjects which are weak.</li>
+	</ul>SEA takes care of the queries and solves all the respective doubts of students pre and post Advantage Test Series and thus help them to develop more and more confidence to appear for the final board exam. &nbsp;
+	<a href="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1.png"><img class="size-full wp-image-1401 alignleft fr-fic fr-dii" src="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1.png" alt="" srcset="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1.png 401w, http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1-199x300.png 199w, http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1-66x100.png 66w" sizes="(max-width: 401px) 100vw, 401px"></a>
+	<a href="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send.png"><img class="size-full wp-image-1436 alignleft fr-fic fr-dii" src="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send.png" alt="" srcset="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send.png 383w, http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send-179x300.png 179w, http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send-60x100.png 60w" sizes="(max-width: 383px) 100vw, 383px"></a>
+	<a href="http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1.png"><img class="size-full wp-image-1647 alignleft fr-fic fr-dii" src="http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1.png" alt="" srcset="http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1.png 442w, http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1-212x300.png 212w, http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1-71x100.png 71w" sizes="(max-width: 442px) 100vw, 442px"></a>
+	<!-- END .inner-content-wrapper -->
+</div>  
+[2020-03-27 12:17:05] development.INFO: [viewBag]
+title = "Test series"
+url = "/courses/test-series/"
+layout = "static"
+is_hidden = 0
+navigation_hidden = 0
+==
+<div class="inner-content-wrapper">After studying throughout the year, it’s important to check what is the core strength and weakness of our students in varied subjects so that they can improve before the final exams. Shah Educational Academy is committed not only for coaching but for testing student’s real calibre and scope of improvement with our
+
+	<h2 class="keyword">SEA ADVANTAGE TEST SERIES.</h2>&nbsp; Sea Advantage Test Series is a pre
+
+	<h2 class="keyword">board exam</h2>held by Shah Educationl Academy to check the hard work of teachers and students of SEA. Here are some of the highlights of how Sea Advantage Test Series work-
+
+	<ul class="moreData_nos">
+		<li>
+
+			<h2 class="keyword">Maharashtra Board Moderators</h2>with years of experience give mentoring session and guidance to students on how to appear for paper and which are the areas to focus, from presentation to number of words every query of students are solved in these sessions.</li>
+		<li>After mentoring SEA organizes a
+
+			<h2 class="keyword">Pre Board Exam i.e A Mock Test</h2>at actual board centre’s with strict moderators of board exams.</li>
+		<li>Papers are set as per actual board pattern with bar code and category wise by
+
+			<h2 class="keyword">Board Paper setters.</h2>&nbsp;</li>
+		<li>Students have to
+
+			<h2 class="keyword">appear for the Board Exam</h2>at respective centre and as per board rules and regulations. By creating real board exam atmosphere we make students psychologically ready and prepared for the final exams.</li>
+		<li>Students papers are checked by
+
+			<h2 class="keyword">board paper checker</h2>with proper remarks so that students can improve the weak subjects and strong subjects can be made better.</li>
+		<li>Through this students have exact picture and process idea of board exams and at the last moment they just have to work on the subjects which are weak.</li>
+	</ul>SEA takes care of the queries and solves all the respective doubts of students pre and post Advantage Test Series and thus help them to develop more and more confidence to appear for the final board exam. &nbsp;
+	<a href="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1.png"><img class="size-full wp-image-1401 alignleft fr-fic fr-dii" src="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1.png" alt="" srcset="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1.png 401w, http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1-199x300.png 199w, http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-23-13-22-44-1-1-66x100.png 66w" sizes="(max-width: 401px) 100vw, 401px"></a>
+	<a href="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send.png"><img class="size-full wp-image-1436 alignleft fr-fic fr-dii" src="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send.png" alt="" srcset="http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send.png 383w, http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send-179x300.png 179w, http://www.shaheducationalacademy.com/wp-content/uploads/2014/08/Screenshot_2017-09-28-to-send-60x100.png 60w" sizes="(max-width: 383px) 100vw, 383px"></a>
+	<a href="http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1.png"><img class="size-full wp-image-1647 alignleft fr-fic fr-dii" src="http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1.png" alt="" srcset="http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1.png 442w, http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1-212x300.png 212w, http://www.shaheducationalacademy.com/wp-content/uploads/2018/01/Screenshot_2018-01-04-12-57-02-1-71x100.png 71w" sizes="(max-width: 442px) 100vw, 442px"></a>
+	<!-- END .inner-content-wrapper -->
+</div>  
+[2020-03-27 12:17:05] development.INFO: Content not dirty for: content/static-pages/courses-test-series.htm  
