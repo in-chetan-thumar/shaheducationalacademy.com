@@ -268,8 +268,10 @@ items:
                 title: 'CRASH COURSE'
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: courses-crash-course
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -314,6 +316,34 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+        items:
+            -
+                title: 'QUESTION PAPERS'
+                type: url
+                url: /
+                code: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: SOLUTIONS
+                type: url
+                url: /
+                code: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: ASSIGNMENTS
+                type: url
+                url: /
+                code: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
     -
         title: CONTACT
         nesting: '0'
