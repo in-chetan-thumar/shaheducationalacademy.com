@@ -2,3 +2,8 @@
 /install_files/
 /bower_components/
 /.env
+/storage/framework/cache
+/storage/app
+/storage/cms
+/storage/log
+/storage/temp
