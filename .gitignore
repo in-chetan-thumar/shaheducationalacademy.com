@@ -1,0 +1,5 @@
+/www/storage/
+/www/vendor/
+/www/install_files/
+/www/bower_components/
+/www/.env
