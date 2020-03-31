@@ -279,13 +279,11 @@ items:
                     isExternal: '0'
             -
                 title: SEMINARS
-                nesting: ''
-                type: url
-                url: /
+                nesting: '0'
+                type: static-page
                 code: ''
-                reference: ''
-                cmsPage: ''
-                replace: ''
+                reference: courses-seminars
+                replace: '0'
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -319,27 +317,39 @@ items:
         items:
             -
                 title: 'QUESTION PAPERS'
+                nesting: ''
                 type: url
                 url: /
                 code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
             -
                 title: SOLUTIONS
+                nesting: ''
                 type: url
                 url: /
                 code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
             -
                 title: ASSIGNMENTS
+                nesting: ''
                 type: url
                 url: /
                 code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
                 viewBag:
                     isHidden: '0'
                     cssClass: ''

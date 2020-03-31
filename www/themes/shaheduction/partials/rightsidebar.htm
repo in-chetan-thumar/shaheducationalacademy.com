@@ -1,6 +1,9 @@
 description = "rightsidebar"
 
 [viewBag]
+
+[menu]
+menu_id = 1
 ==
 <!-- BEGIN .sidebar-right -->
 		<div class="sidebar-right page-content">
@@ -20,7 +23,7 @@ description = "rightsidebar"
 		</div>
 		<div class="widget content-block">
 		    <h3 class="block-title">Quick Links</h3>
-        
+		         {% component 'menu' %}
 		</div>	
 		<!-- END .sidebar-right -->
 		</div>

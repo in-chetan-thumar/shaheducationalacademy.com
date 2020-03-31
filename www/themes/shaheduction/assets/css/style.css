@@ -1567,3 +1567,8 @@ textarea.input {
   height: 270px;
     width: 360px;
 }
+
+.page-content ul li{
+    list-style-type: disc !important;
+    color: #d91e1e !important;
+}
