@@ -2,7 +2,6 @@
 /www/install_files/
 /www/bower_components/
 /www/.env
-/www/storage/framework/cache
 /www/storage/cms
 /www/storage/log
 /www/storage/temp
