@@ -1,5 +1,26 @@
+
 {% if __SELF__.menuItems %}
-    <ul>
-        {% partial __SELF__ ~ "::items" items=__SELF__.menuItems %}
-    </ul>
+<ul>
+    {% partial __SELF__ ~ "::items" items=__SELF__.menuItems %}
+</ul>
 {% endif %}
+
+<div class="mobile-container">
+    <div class="topnav">
+        {% if __SELF__.menuItems %}
+
+        <ul class="myLinks">
+            {% partial __SELF__ ~ "::items" items=__SELF__.menuItems %}
+        </ul>
+
+        {% endif %}
+    </div>
+</div>
+<a href="javascript:void(0);" class="icon">
+    <div class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</a>
+<div class="menu-btn-cross">&#215;</div>
