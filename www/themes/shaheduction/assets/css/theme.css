@@ -3267,3 +3267,23 @@ ul#main-menu li li li.sfHover ul {
 .carousel-inner>.item{
 	margin-top: 40px;
 }
+
+
+/*1-4-2020*/
+.carousel-inner > .item {
+  margin-top: 0px;
+}
+.slider.clearfix {
+	margin: 0 auto 0px;
+}
+#main-menu li a {
+  color: #fff;
+
+}
+#main-menu li a:hover{
+	text-decoration: none;
+}
+#main-menu li li a {
+	color: #000;
+}
+/*end 1-4-2020*/
