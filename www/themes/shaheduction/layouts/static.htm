@@ -98,9 +98,24 @@ default = 0
         <script type="text/javascript">
           $(document).ready(function(){
               $('#main-menu-wrapper').find('ul').attr('id', 'main-menu');
-;
+              $('.mobile-container').find('ul').attr('id', 'main-menu1');
           });
       </script>
+        <script type="text/javascript">
+        $(".menu-btn-cross").hide("slow");
+            $(".icon").click(function () {
+                $(".myLinks").show("slow");
+                $(".menu-btn-cross").show("slow");
+                $(".menu-btn").hide(); 
+            });
+
+        $(".menu-btn-cross").click(function () {
+            $(".myLinks").hide();
+            $(".menu-btn-cross").hide();
+            $(".menu-btn").show();
+        });
+
+    </script>
         <!--End of Tawk.to Script-->
     </body>
 </html>

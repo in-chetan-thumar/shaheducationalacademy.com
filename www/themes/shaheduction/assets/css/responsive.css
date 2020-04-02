@@ -1066,3 +1066,93 @@
 	.page-content table#resp-table-new tr {}
 	.page-content table#resp-table-new td {}
 }
+
+.topnav .myLinks {
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.topnav {
+		overflow: hidden;
+		background-color: #333;
+		position: relative;
+	}
+	.topnav a {
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		display: block;
+	}
+	.topnav a.icon {
+		background: black;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+	#main-menu-wrapper .menu-btn {
+		width: 30px;
+		height: 30px;
+		padding-left: 30px;
+		padding-top: 7px;
+		cursor: pointer;
+		cursor: hand;
+		border-color: #000;
+	}
+	#main-menu-wrapper .menu-btn span {
+		display: block;
+		width: 30px !important;
+		height: 3px;
+		margin: 5px 0;
+		background: #FFF;
+		z-index: 99;
+	}
+	.icon {
+		position: relative;
+	}
+	.menu-btn-cross {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		color: rgb(34, 34, 34);
+		background: rgb(255, 255, 255);
+		border-radius: 50%;
+		width: 15px;
+		height: 15px;
+		text-align: center;
+	}
+	.topnav .sub-menu {
+		padding: 0 0 0 30px;
+	}
+	.topnav .sub-menu li a {
+		font-size: 15px;
+	}
+	#logo {
+		margin: 10px auto 10px auto !important;
+	}
+	.right_phone_socialDiv {
+		float: none;
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.social-icons {
+		text-align: center;
+		vertical-align: middle;
+	}
+	.top-right-nav {
+		margin: 6px 20px 0 0 !important;
+		width: auto !important;
+		display: inline-block !important;
+		padding: 0;
+		vertical-align: middle;
+		position: absolute;
+		right: 0;
+	}
+}
