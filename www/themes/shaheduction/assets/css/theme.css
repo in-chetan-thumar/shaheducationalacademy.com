@@ -1,3 +1,6 @@
+/*9-4-2020*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/*end 9-4-2020*/
 /*
 
 Theme Name: parkcollege (Shared on MafiaShare.net)
@@ -3573,3 +3576,90 @@ ul#main-menu li li li:hover ul, ul#main-menu li li li.sfHover ul {
 /*end 1-4-2020*/
 
 /*Dhwani CSS*/
+
+/*9-4-2020*/
+#main-menu-wrapper {
+	width: 100%;
+}
+.right_phone_socialDiv ul li span.blue_text_b {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.left.carousel-control,.right.carousel-control {
+	display: none;
+}
+/*#main-menu li#menu-item-42 {
+	margin-left: 53px;
+}*/
+/*#main-menu li.current_page_item, #main-menu li:hover, .slider .flex-direction-nav .flex-prev, .slider .flex-direction-nav .flex-next, .page-content blockquote, .ui-tabs .ui-tabs-nav li.ui-tabs-selected, .pagination-wrapper .selected, .pagination-wrapper a:hover, .wp-pagenavi .current, .wp-pagenavi a:hover, .page-slider .flex-direction-nav .flex-prev, .page-slider .flex-direction-nav .flex-next {
+	border-color: white;
+}*/
+
+/*#main-menu li:nth-child(1){
+	margin-left: 53px;
+}*/
+
+
+p {
+	font-size: 15px;
+	line-height: 26px;
+	margin: 0;
+}
+.block-title, #reply-title {
+	background: none !important;
+	color: #07193d;
+	font-family: arial !important;
+	font-size: 20px !important;
+}
+.quick_links li {
+	color: #d91e1e;
+	font-size: 15px;
+	line-height: 33px;
+	margin: 0 0 12px 15px;
+	list-style-image: none;
+	list-style-type: disc;
+}
+.page-content ul li {
+	color: #d91e1e;
+	font-size: 15px;
+	line-height: 33px;
+	margin: 0 0 12px 15px;
+	list-style-image: none;
+	list-style-type: disc;
+}
+.columns-4 {
+	/* padding: 70px 0 60px 0; */
+	padding: 46px 0 19px 0;
+	margin-bottom: 20px;
+}
+#main-menu-wrapper {
+	bottom: -12px !important;
+	margin-bottom: 10px !important;
+}
+.active a span.sf-sub-indicator {
+	right: 2px !important;
+}
+/*#main-menu li:first-child {
+	margin-left: 52px;
+}*/
+#main-menu li {
+	margin: 0 4.6px;
+}
+#main-menu-wrapper > #main-menu {
+	display: flex;
+	justify-content: center;
+}
+#main-menu > li.active:nth-child(1) a span.sf-sub-indicator{
+	display: none;
+}
+#main-menu > li.active:nth-child(4) a span.sf-sub-indicator{
+	display: none;
+}
+#main-menu > li:last-child a span.sf-sub-indicator{
+	display: none;
+}
+#main-menu > li:first-child {
+	border-top: 3px solid #035398 !important;
+}
+
+/*end 9-4-2020*/
