@@ -3658,8 +3658,7 @@ p {
 #main-menu > li:last-child a span.sf-sub-indicator{
 	display: none;
 }
-#main-menu > li:first-child {
-	border-top: 3px solid #035398 !important;
-}
+
+#main-menu-wrapper > #main-menu > li:first-child{border-top: 3px solid #035398 !important;}
 
 /*end 9-4-2020*/
