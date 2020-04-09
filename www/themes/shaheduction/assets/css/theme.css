@@ -3576,7 +3576,7 @@ ul#main-menu li li li:hover ul, ul#main-menu li li li.sfHover ul {
 /*end 1-4-2020*/
 
 /*Dhwani CSS*/
-
+ 
 /*9-4-2020*/
 #main-menu-wrapper {
 	width: 100%;
@@ -3643,7 +3643,7 @@ p {
 	margin-left: 52px;
 }*/
 #main-menu li {
-	margin: 0 4.6px;
+	padding: 0 4.6px;
 }
 #main-menu-wrapper > #main-menu {
 	display: flex;
