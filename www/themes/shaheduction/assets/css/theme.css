@@ -3639,6 +3639,7 @@ p {
 .active a span.sf-sub-indicator {
 	right: 2px !important;
 }
+
 /*#main-menu li:first-child {
 	margin-left: 52px;
 }*/
@@ -3660,5 +3661,11 @@ p {
 }
 
 #main-menu-wrapper > #main-menu > li:first-child{border-top: 3px solid #035398 !important;}
-
 /*end 9-4-2020*/  
+
+/*10-4-2020*/
+#main-menu li .sf-sub-indicator {right: 2px;}
+#main-menu-wrapper > #main-menu > li:nth-child(1) a span,#main-menu-wrapper > #main-menu > li:nth-child(4) a span {
+	display: none;
+}
+/*end 10-4-2020*/
