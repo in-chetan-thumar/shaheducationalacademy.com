@@ -281,8 +281,10 @@ items:
                 title: SEMINARS
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: courses-seminars
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -330,13 +332,11 @@ items:
                     isExternal: '0'
             -
                 title: SOLUTIONS
-                nesting: ''
-                type: url
-                url: /
+                nesting: '0'
+                type: static-page
                 code: ''
-                reference: ''
-                cmsPage: ''
-                replace: ''
+                reference: sea-connect-solutions
+                replace: '0'
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
