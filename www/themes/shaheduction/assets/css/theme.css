@@ -3650,12 +3650,22 @@ p {
 	display: flex;
 	justify-content: center;
 }
-#main-menu > li.active:nth-child(1) a span.sf-sub-indicator{
+/*15-4-2020
+ #main-menu > li.active:nth-child(1) a span.sf-sub-indicator{
 	display: none;
 }
+end 15-4-2020
+ */
+
+ /*15-4-2020*/
+ ul.moreData_nobullets.isc-ul li {
+    color: #000;
+}
+ /*end 15-4-2020*/
 #main-menu > li.active:nth-child(4) a span.sf-sub-indicator{
 	display: none;
 }
+
 #main-menu > li:last-child a span.sf-sub-indicator{
 	display: none;
 }
