@@ -319,13 +319,13 @@ items:
         items:
             -
                 title: 'QUESTION PAPERS'
-                nesting: ''
-                type: url
-                url: /
+                nesting: '0'
+                type: static-page
+                url: ''
                 code: ''
-                reference: ''
+                reference: sea-connect-question-papers
                 cmsPage: ''
-                replace: ''
+                replace: '0'
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -334,8 +334,10 @@ items:
                 title: SOLUTIONS
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: sea-connect-solutions
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -343,13 +345,11 @@ items:
                     isExternal: '0'
             -
                 title: ASSIGNMENTS
-                nesting: ''
-                type: url
-                url: /
+                nesting: '0'
+                type: static-page
                 code: ''
-                reference: ''
-                cmsPage: ''
-                replace: ''
+                reference: sea-connect-assignments
+                replace: '0'
                 viewBag:
                     isHidden: '0'
                     cssClass: ''

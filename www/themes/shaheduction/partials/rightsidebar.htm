@@ -4,6 +4,9 @@ description = "rightsidebar"
 
 [menu]
 menu_id = 1
+
+[staticMenu]
+code = "quicklinks"
 ==
 <!-- BEGIN .sidebar-right -->
 		<div class="sidebar-right page-content">
@@ -16,13 +19,7 @@ menu_id = 1
                 <marquee direction='left' onmouseover='this.stop()'
                     onmouseout='this.start()'>
                     <ul id="saw_ticker-small_announcement">
-                        <li class="saw_msg">
-                            FYJC batches commence from june.
-                        </li>
-                        <li class="saw_msg">SYJC batches commence</li>
-                        <li class="saw_msg">C.S. batch registrations start.</li>
-                        <li class="saw_msg">Seminar on CA and CS as a career (contact office)</li>
-                        <li class="saw_msg">90% CPT Results<span class="saw_separator"> <span class="saw_content"><a href="http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000.jpg"><img src="http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000.jpg" alt="img-20170121-wa0000" class="aligncenter size-full wp-image-1128" srcset="http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000.jpg 768w, http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000-180x300.jpg 180w, http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000-614x1024.jpg 614w, http://www.shaheducationalacademy.com/wp-content/uploads/2017/01/IMG-20170121-WA0000-60x100.jpg 60w" sizes="(max-width: 768px) 100vw, 768px" /></a></li>				
+                        {% component 'staticMenu' %}
                     </ul>
                 </marquee>
 			</div>
