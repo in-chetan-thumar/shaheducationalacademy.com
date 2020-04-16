@@ -106,6 +106,35 @@ id = 1
             });
 
         </script>
+          <script>
+					$(function()
+						{
+							//animate the ticker
+						    var tickersmall_announcement = function()
+						    {
+						        $('#saw_ticker-small_announcement li:first').animate( {marginLeft: '-200px'}, 800, function()
+								{
+									jQuery(this).detach().appendTo('ul#saw_ticker-small_announcement').removeAttr('style');
+								});
+	
+								//after the animation completes, set the interval again
+								interval;
+							};
+	
+							//set the interval for the animation
+							var interval = setInterval(tickersmall_announcement, 4000);
+	
+							//on hover, pause the ticker, and restart it on mouseout
+							jQuery('#saw_ticker-small_announcement li:first').hover(function() {
+								clearInterval(interval);
+							}, function() {
+								interval = setInterval(tickersmall_announcement, 4000);
+							});
+	
+							//start the interval for the first animation
+							interval;					    
+						});
+			</script>
         <!--End of Tawk.to Script-->
     </body>
 </html>

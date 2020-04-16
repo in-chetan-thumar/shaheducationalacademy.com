@@ -4,24 +4,15 @@ description = "rightsidebar"
 
 [menu]
 menu_id = 1
-
-[staticMenu]
-code = "quicklinks"
 ==
 <!-- BEGIN .sidebar-right -->
 		<div class="sidebar-right page-content">
 		
 			<div class="widget content-block">			
 			
-			<div class="widget saw_announcements horizontal">
-								
-                <h3 class="block-title">Announcement</h3>
-                <marquee direction='left' onmouseover='this.stop()'
-                    onmouseout='this.start()'>
-                    <ul id="saw_ticker-small_announcement">
-                        {% component 'staticMenu' %}
-                    </ul>
-                </marquee>
+			<div class="widget saw_announcements horizontal">	
+			<h3 class="block-title">Announcement</h3>				
+			   {% partial "announcment" %}
 			</div>
 			</div>			
 			<div class="widget content-block">Testimonials<div class='content_display' id="testi_slider_1584327600_300">	
