@@ -3679,6 +3679,13 @@ end 15-4-2020
 	display: none;
 }
  /*end 15-4-2020*/
+ /*16-4-2020*/
+#main-menu-wrapper > #main-menu > li:nth-child(3) > ul#main-menu > li:nth-child(1),
+#main-menu-wrapper > #main-menu > li:nth-child(3) > ul#main-menu > li:nth-child(3),
+#main-menu-wrapper > #main-menu > li:nth-child(3) > ul#main-menu > li:nth-child(3) > ul#main-menu > li {
+    height: auto;
+}
+ /*end 16-4-2020*/
 #main-menu > li.active:nth-child(4) a span.sf-sub-indicator{
 	display: none;
 }
@@ -3688,9 +3695,7 @@ end 15-4-2020
 }
 
 #main-menu-wrapper > #main-menu > li:first-child{border-top: 3px solid #035398 !important;}
-/*end 9-4-2020*/  
 
-/*10-4-2020*/
 #main-menu li .sf-sub-indicator {right: 2px;}
 #main-menu-wrapper > #main-menu > li:nth-child(1) a span,#main-menu-wrapper > #main-menu > li:nth-child(4) a span {
 	display: none;
@@ -3699,14 +3704,10 @@ end 15-4-2020
 #main-menu-wrapper > #main-menu > li:nth-child(1) a span,#main-menu-wrapper > #main-menu > li:nth-child(1) a span {
 	display: none;
 }
-/*end 10-4-2020*/
 
-
-/*13-4-2020*/
 @media only screen and (max-width: 767px) {
 
 	#main-menu-wrapper > #main-menu{
 		display: none !important;
 	}
 }
-/*end 13-4-2020*/
