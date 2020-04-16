@@ -3685,7 +3685,7 @@ end 15-4-2020
 #main-menu-wrapper > #main-menu > li:nth-child(3) > ul#main-menu > li:nth-child(3) > ul#main-menu > li {
     height: auto;
 }
-#main-menu-wrapper > #main-menu > li:nth-child(3) > ul#main-menu > li:nth-child(4) > span{
+#main-menu-wrapper > #main-menu > li:nth-child(3) > ul#main-menu > li:nth-child(4) {
     padding: 15px 30px 15px 35px;
     margin-bottom: 3px;
 }
