@@ -68,9 +68,13 @@ items:
         items:
             -
                 title: 'UNDERGRADUATE COURSES'
+                nesting: ''
                 type: url
                 url: '#'
                 code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
                 viewBag:
                     isHidden: '0'
                     cssClass: 'menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-864'
@@ -343,8 +347,10 @@ items:
                 title: ASSIGNMENTS
                 nesting: '0'
                 type: static-page
+                url: ''
                 code: ''
                 reference: sea-connect-assignments
+                cmsPage: ''
                 replace: '0'
                 viewBag:
                     isHidden: '0'
@@ -352,13 +358,9 @@ items:
                     isExternal: '0'
     -
         title: CONTACT
-        nesting: '0'
-        type: static-page
-        url: ''
+        type: cms-page
         code: ''
         reference: contactus
-        cmsPage: ''
-        replace: '0'
         viewBag:
             isHidden: '0'
             cssClass: ''
