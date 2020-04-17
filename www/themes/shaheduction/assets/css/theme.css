@@ -3737,8 +3737,9 @@ div.selector select {
     }
     input.wpcf7-form-control.wpcf7-submit.usercontactbtn {
         padding: 3px 12px;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
     }
+    .mb-30{ margin-bottom: 30px;}
     div.selector select {
         opacity: 1;
         background: #fff;
@@ -3755,10 +3756,13 @@ div.selector select {
 	display: block;
 }
 .spancontact > .input_contact{
-	width: 209px !important;
+	width: 210px !important;
 }
 .selector.cotactselectors {
     width: 215px !important;
+}
+#uniform-i-am.selector {
+    width: 210px !important;
 }
 /*end 17-4-2020*/
 
