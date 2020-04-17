@@ -1,5 +1,4 @@
 static-pages:
-    contactus: {  }
     who-we-are-sea-advantage: {  }
     courses-undergraduate-courses-f-y-j-c: {  }
     courses-undergraduate-courses-s-y-j-c: {  }
@@ -27,3 +26,4 @@ static-pages:
     academics: {  }
     address: {  }
     courses: {  }
+    our-team: {  }
