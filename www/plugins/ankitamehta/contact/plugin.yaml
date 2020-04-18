@@ -1,6 +1,0 @@
-plugin:
-    name: 'ankitamehta.contact::lang.plugin.name'
-    description: 'ankitamehta.contact::lang.plugin.description'
-    author: 'Ankita Mehta'
-    icon: oc-icon-envelope
-    homepage: ''
