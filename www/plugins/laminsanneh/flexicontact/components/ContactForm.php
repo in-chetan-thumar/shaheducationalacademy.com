@@ -13,6 +13,7 @@ use Cms\Classes\ComponentBase;
 use LaminSanneh\FlexiContact\Models\Settings;
 use Mail;
 use Validator;
+use Redirect;
 use ValidationException;
 use Request;
 use Illuminate\Support\MessageBag;
@@ -27,7 +28,6 @@ class ContactForm extends ComponentBase{
         'name' => ['required'],
         'email' => ['required', 'email'],
         'subject' => ['required'],
-        'body' => ['required']
     ];
 
     /**
@@ -89,8 +89,8 @@ class ContactForm extends ComponentBase{
         $validator = Validator::make(post(), $this->formValidationRules, $this->customMessages);
 
         // Validate
-        if ($validator->fails()) {
-            throw new ValidationException($validator);
+        if($validator->fails()){
+            return Redirect::back()->withErrors($validator);
         }
 
         if($this->enableCaptcha()){

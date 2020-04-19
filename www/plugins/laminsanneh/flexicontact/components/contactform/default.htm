@@ -22,7 +22,7 @@
                             </select>
                         </div>
                     </span>
-					<span style="color:red;">{{ errors.first('name') }}</span>
+					<span style="color:red;">{{ errors.first('subject') }}</span>
                 </p>
                 <p>Your Name (required)
                     <br>
@@ -36,27 +36,26 @@
                     <span class="wpcf7-form-control-wrap your-email spancontact">
                         <input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input_contact" aria-required="true" aria-invalid="false" data-map-form-field="email">
                     </span>
-					<span style="color:red;">{{ errors.first('name') }}</span>
+					<span style="color:red;">{{ errors.first('email') }}</span>
                 </p>
                 <p>Mobile
                     <br>
                     <span class="wpcf7-form-control-wrap tel-934 spancontact">
                         <input type="tel" name="mobile" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel input_contact" aria-required="true" aria-invalid="false">
                     </span>
-					<span style="color:red;">{{ errors.first('name') }}</span>
+					<span style="color:red;">{{ errors.first('mobile') }}</span>
                 </p>
-                <p>Your Message
+                <p>Your Message (required)
                     <br>
                     <span class="wpcf7-form-control-wrap your-message spancontact">
                         <textarea name="body" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea usertextarea input_contact" aria-invalid="false"></textarea>
                     </span>
-					<span style="color:red;">{{ errors.first('name') }}</span>
+					<span style="color:red;">{{ errors.first('body') }}</span>
                 </p>
                 <p>
 					{% if __SELF__.enableCaptcha %}
-						<div class="g-recaptcha" data-sitekey="{{ __SELF__.siteKey }}"></div>
+						<div class="g-recaptcha" name="captcha" data-sitekey="{{ __SELF__.siteKey }}"></div>
 					{% endif %}
-					<span style="color:red;">{{ errors.first('name') }}</span>
                 </p>
                 <p>
                     
