@@ -3,16 +3,17 @@
 </div>
 <form class="flexiContactForm" role="form"
       data-request="{{ __SELF__ }}::onMailSent"
-      data-request-update="'{{ __SELF__ }}::confirm': '.confirm-container'">
+      data-request-update="'{{ __SELF__ }}::confirm': '.confirm-container'"
+>
 
     <div class="form-groups">
-         <p>Subject
+         <p>Subject(required)
                     <br>
                     <span class="wpcf7-form-control-wrap menu-265">
                         <div class="selector cotactselectors" style="width: 142.938px;">
                             <span style="width: 142.938px; user-select: none;display: none;">Select One</span>
                             <select name="subject" class="wpcf7-form-control wpcf7-select" aria-invalid="false">
-                                <option value="Select One">Select One</option>
+                                <option value="">Select One</option>
                                 <option value="Student's Query">Student's Query</option>
                                 <option value="Parent's Query">Parent's Query</option>
                                 <option value="Franchise Registration">Franchise Registration</option>
@@ -22,7 +23,7 @@
                             </select>
                         </div>
                     </span>
-					<span style="color:red;">{{ errors.first('subject') }}</span>
+					<br><span style="color:red;">{{ errors.first('subject') }}</span>
                 </p>
                 <p>Your Name (required)
                     <br>
@@ -41,16 +42,16 @@
                 <p>Mobile
                     <br>
                     <span class="wpcf7-form-control-wrap tel-934 spancontact">
-                        <input type="tel" name="mobile" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel input_contact" aria-required="true" aria-invalid="false">
+                        <input type="text" name="mobile" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel input_contact" maxlength="10" aria-required="true" aria-invalid="false">
                     </span>
 					<span style="color:red;">{{ errors.first('mobile') }}</span>
                 </p>
                 <p>Your Message (required)
                     <br>
                     <span class="wpcf7-form-control-wrap your-message spancontact">
-                        <textarea name="body" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea usertextarea input_contact" aria-invalid="false"></textarea>
+                        <textarea name="yourmessage" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea usertextarea input_contact" aria-invalid="false"></textarea>
                     </span>
-					<span style="color:red;">{{ errors.first('body') }}</span>
+					<span style="color:red;">{{ errors.first('yourmessage') }}</span>
                 </p>
                 <p>
 					{% if __SELF__.enableCaptcha %}

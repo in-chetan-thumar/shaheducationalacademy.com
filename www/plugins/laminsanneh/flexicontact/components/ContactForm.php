@@ -28,6 +28,8 @@ class ContactForm extends ComponentBase{
         'name' => ['required'],
         'email' => ['required', 'email'],
         'subject' => ['required'],
+        'yourmessage' => ['required'],
+        'mobile' => ['numeric']
     ];
 
     /**

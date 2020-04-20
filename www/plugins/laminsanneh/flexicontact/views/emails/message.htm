@@ -1,6 +1,16 @@
 <h2>Contact</h2>
+{% if name %}
 <p>Name : {{name}}</p>
+{% endif %}
+{% if mobile %}
 <p>Mobile : {{mobile}}</p>
+{% endif %}
+{% if email %}
 <p>Email : {{email}}</p>
+{% endif %}
+{% if subject %}
 <p>Subject : {{subject}}</p>
-<p>Message : {{body}}</p>
+{% endif %}
+{% if yourmessage %}
+<p>Message : {{yourmessage}}</p>
+{% endif %}
