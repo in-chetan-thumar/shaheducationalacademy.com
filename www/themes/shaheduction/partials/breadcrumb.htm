@@ -1,0 +1,16 @@
+[staticBreadcrumbs]
+
+[viewBag]
+==
+
+{% if this.page.id == "directors-profile" %}
+    <h5 style="display: flex;"> Home » Who We Are » Directors Profile </h5>
+{% endif %}
+
+{% if this.page.id == "who-we-are-sea-advantage" %}
+    <h5 style="display: flex;"> Home » Who We Are » {% component 'staticBreadcrumbs' %} </h5>
+{% endif %}
+
+{% if this.page.id == "courses-undergraduate-courses-f-y-j-c" or this.page.id == "courses-undergraduate-courses-s-y-j-c" or this.page.id == "courses-undergraduate-courses-isc-commerce" %}
+    <h5 style="display: flex;"> Home » Courses » Undergraduate Courses » {% component 'staticBreadcrumbs' %} </h5>
+{% endif %}

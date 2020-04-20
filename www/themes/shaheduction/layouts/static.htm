@@ -60,7 +60,11 @@ default = 0
         <div class="page-header clearfix">
             <div class="page-header-inner clearfix">
                 <div class="page-title">
-                    <h2>{{this.page.title}}</h2>
+                    <h2>{{ this.page.title }}</h2>
+                    
+                    {% partial 'breadcrumb' %}
+                    
+                      
                     <div class="page-title-block">
                     
                     </div>
