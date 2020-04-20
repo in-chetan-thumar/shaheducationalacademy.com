@@ -1,10 +1,9 @@
-<div class="confirm-container">
-    <!--This will contain the confirmation when the email is successfully sent-->
+<div class="flash-success">
+    Your Mail is sent successfully! We will get back to you.
 </div>
 <form class="flexiContactForm" role="form"
       data-request="{{ __SELF__ }}::onMailSent"
-      data-request-update="'{{ __SELF__ }}::confirm': '.confirm-container'"
->
+      data-request-success="this.reset();$('.flash-success').show();">
 
     <div class="form-groups">
          <p>Subject(required)

@@ -5,7 +5,7 @@
       return console.log(arguments);
     } else {
         //$('.wpcf7-form-control').val("");
-      return $('.form-groups').hide(1000);
+      //return $('.form-groups').hide(1000);
     }
   });
 

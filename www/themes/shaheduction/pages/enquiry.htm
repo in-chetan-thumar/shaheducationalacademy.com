@@ -2,60 +2,9 @@ title = "Enquiry"
 url = "/courses/enquiry/"
 layout = "static"
 is_hidden = 0
-==
 
+[Enquiry]
+==
 <div class="inner-content-wrapper">
-	<div role="form" class="wpcf7" id="wpcf7-f885-p883-o1" lang="en-US" dir="ltr">
-		<div class="screen-reader-response"></div>
-		<form action="/courses/enquiry/#wpcf7-f885-p883-o1" method="post" class="wpcf7-form wpl-track-me" novalidate="novalidate" data-form-processed="true">
-			<div style="width: 252px;">
-				<p>Name*
-					<br>
-					<span class="wpcf7-form-control-wrap your-name spancontact">
-						<input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input_contact" aria-required="true" aria-invalid="false" data-map-form-field="name">
-					</span>
-				</p>
-				<p>Email*
-					<br>
-					<span class="wpcf7-form-control-wrap your-email spancontact">
-						<input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input_contact" aria-required="true" aria-invalid="false" data-map-form-field="email"></span>
-					</p>
-					<p>I am a*
-						<br>
-						<span class="wpcf7-form-control-wrap menu-805">
-							<div class="selector cotactselectors " id="uniform-i-am" style="width: 210px;">
-								<span style="width: 124.938px; user-select: none;display: none;">Please choose one</span>
-								<select name="menu-805" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required iam" id="i-am" aria-required="true" aria-invalid="false">
-									<option value="Please choose one">Please choose one</option>
-									<option value="Student">Student</option>
-									<option value="Parent">Parent</option>
-									<option value="Professor">Professor</option>
-								</select>
-							</div>
-						</span>
-					</p>
-					<p>Contact No
-						<br>
-						<span class="wpcf7-form-control-wrap tel-249 spancontact">
-							<input type="tel" name="tel-249" value="" size="40" maxlength="10" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel input_contact" id="phone" aria-invalid="false" data-map-form-field="phone"></span>
-						</p>
-						<p>Query
-							<br>
-							<span class="wpcf7-form-control-wrap your-message spancontact">
-								<textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea usertextarea input_contact" aria-invalid="false"></textarea>
-							</span>
-						</p>
-						<p>Enter below captcha in the box <span class="wpcf7-form-control-wrap captcha-705 spancontact">
-							<input type="text" name="captcha-705" value="" size="40" class="wpcf7-form-control wpcf7-captchar input_contact" autocomplete="off" aria-invalid="false"></span>
-						</p>
-						<p></p>
-						<p>
-							<input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit usercontactbtn">
-							<span class="ajax-loader"></span>
-						</p>
-					</div>
-					<div class="wpcf7-response-output wpcf7-display-none"></div>
-				</form>
-			</div>
-			<!-- END .inner-content-wrapper -->
-		</div>
+	{% component 'Enquiry' %}
+</div>

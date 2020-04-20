@@ -1,0 +1,6 @@
+plugin:
+    name: 'shaheducation.enquiry::lang.plugin.name'
+    description: 'shaheducation.enquiry::lang.plugin.description'
+    author: shaheducation
+    icon: oc-icon-envelope-o
+    homepage: ''
