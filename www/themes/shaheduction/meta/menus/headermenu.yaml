@@ -292,13 +292,9 @@ items:
                     isExternal: '0'
     -
         title: RESULT
-        nesting: ''
-        type: url
-        url: /
+        type: cms-page
         code: ''
-        reference: ''
-        cmsPage: ''
-        replace: ''
+        reference: result
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -358,9 +354,13 @@ items:
                     isExternal: '0'
     -
         title: CONTACT
+        nesting: ''
         type: cms-page
+        url: ''
         code: ''
         reference: contactus
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
