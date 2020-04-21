@@ -4,6 +4,8 @@ description = "rightsidebar"
 
 [menu]
 menu_id = 1
+
+[Enquiry]
 ==
 <!-- BEGIN .sidebar-right -->
 		<div class="sidebar-right page-content">
@@ -13,14 +15,21 @@ menu_id = 1
 			<div class="widget saw_announcements horizontal">	
 			<h3 class="block-title">Announcement</h3>				
 			   {% partial "announcment" %}
-			</div>
+            </div>
+            {%if this.page.id == "courses-undergraduate-courses-f-y-j-c" or this.page.id == "courses-undergraduate-courses-s-y-j-c"
+                or this.page.id == "courses-graduate-courses-b-com" or this.page.id == "courses-graduate-courses-b-m-s" or this.page.id ==
+                "courses-graduate-courses-b-a-f" or this.page.id == "courses-graduate-courses-b-b-i" or 
+                this.page.id == "professional-courses-chartered-accountancy-c-a" 
+                or this.page.id =="professional-courses-company-secretary-c-s" or this.page.id == "courses-test-series"
+            %}
+                <h3 class="block-title">Enquire</h3>   
+                {% component 'Enquiry' %}
+            {% endif %}
 			</div>			
-			<div class="widget content-block">Testimonials<div class='content_display' id="testi_slider_1584327600_300">	
-					</div>
-		</div>
-		<div class="widget content-block">
+        
+        <div class="widget content-block">
 		    <h3 class="block-title">Quick Links</h3>
-		         {% component 'menu' %}
+		        {% component 'menu' %}
 		</div>	
 		<!-- END .sidebar-right -->
 		</div>

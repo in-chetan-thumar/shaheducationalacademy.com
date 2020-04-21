@@ -1073,7 +1073,7 @@ select, input[type="text"], input[type="email"], input[type="url"], input[type="
 
 input[type="submit"] {
 	border: #e3e3e3 1px solid;
-	background: url(images/button_bg.png) #fff repeat-x bottom left;
+	/*background: url(images/button_bg.png) #fff repeat-x bottom left;*/
 	color: #424242;
 	padding: 8px 12px;
 	font-size: 12px;
@@ -1133,12 +1133,12 @@ div.selector span {
 	visibility: hidden;
 	position: absolute;
 }
-
+/* 
 div.selector, div.selector span {
-	background-image: url(images/select.png);
+	//background-image: url(images/select.png);
 	background-repeat: no-repeat;
 	-webkit-font-smoothing: antialiased;
-}
+} */
 
 div.selector {
 	display: -moz-inline-box;
@@ -1244,7 +1244,7 @@ div.selector.disabled span, div.selector.disabled.active span {
 	color: #424242;
 	padding: 8px 13px 8px 13px;
 	line-height: 1 !important;
-	background: url(images/button_bg.png) #fff repeat-x center bottom;
+	/*background: url(images/button_bg.png) #fff repeat-x center bottom;*/
 	border: 1px solid;
 	float: left;
 	text-decoration: none;
@@ -1257,7 +1257,7 @@ div.selector.disabled span, div.selector.disabled.active span {
 	color: #424242;
 	padding: 11px 15px 11px 15px;
 	line-height: 1 !important;
-	background: url(images/button_bg.png) #fff repeat-x center bottom;
+	/*background: url(images/button_bg.png) #fff repeat-x center bottom;*/
 	border: 1px solid;
 	float: left;
 	text-decoration: none;
@@ -1270,7 +1270,7 @@ div.selector.disabled span, div.selector.disabled.active span {
 	color: #424242;
 	padding: 14px 19px 14px 19px;
 	line-height: 1 !important;
-	background: url(images/button_bg.png) #fff repeat-x center bottom;
+	/*background: url(images/button_bg.png) #fff repeat-x center bottom;*/
 	border: #e3e3e3 1px solid;
 	text-decoration: none;
 	float: left;
@@ -1281,7 +1281,7 @@ div.selector.disabled span, div.selector.disabled.active span {
 	color: #424242;
 	padding: 14px 20px 14px 20px;
 	line-height: 1 !important;
-	background: url(images/button_bg.png) #fff repeat-x center bottom;
+	/*background: url(images/button_bg.png) #fff repeat-x center bottom;*/
 	border: #e3e3e3 1px solid;
 	text-decoration: none;
 	float: left;

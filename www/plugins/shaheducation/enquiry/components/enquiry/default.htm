@@ -1,7 +1,7 @@
 <div class="flash-success">
     Your Mail is sent successfully! We will get back to you.
 </div>
-<form method="POST" data-request="onSend" data-request-validate
+<form method="POST" data-request="{{ __SELF__ }}::onSend" data-request-validate
     data-request-success="this.reset();$('.flash-success').show();">
    <div role="form" class="wpcf7" id="wpcf7-f885-p883-o1" lang="en-US" dir="ltr">
 		<div class="screen-reader-response"></div>
@@ -49,8 +49,8 @@
 					<span style="color:red;">{{ errors.first('query') }}</span>
 				</p>
 				<p>
-					<div class="g-recaptcha" name="captcha" data-sitekey="{{ __SELF__.siteKey }}"></div>
-					<span style="color:red;">{{ errors.first('captcha') }}</span>
+					<div class="g-recaptcha" name="g-recaptcha" data-sitekey="{{ __SELF__.siteKey }}"></div>
+					<span style="color:red;">{{ errors.first('g-recaptcha') }}</span>
                 </p>
 				<p></p>
 				<p>
@@ -61,11 +61,3 @@
 			    <div class="wpcf7-response-output wpcf7-display-none"></div>
 			</div>
 </form>
-<script type="text/javascript">
-    $(document).ready(function () {
-        alert("jsdhhshdjh");
-        $("#enquiry_frm").on('ajaxSuccess', function (event, message) {
-            $(".flash-success").show();
-            $('#enquiry_frm')[0].reset();
-        });
-</script>

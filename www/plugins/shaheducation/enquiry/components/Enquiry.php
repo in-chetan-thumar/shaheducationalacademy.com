@@ -27,7 +27,7 @@ class Enquiry extends ComponentBase
                 'type' => Input::get('type'),
                 'contact' => Input::get('content'),
                 'query' => Input::get('query'),
-                'g-recaptcha-response' => Input::get('g-recaptcha-response'),
+                'g-recaptcha' => Input::get('g-recaptcha'),
             ],
             [
                 'name' => 'required',
@@ -35,7 +35,7 @@ class Enquiry extends ComponentBase
                 'type' => 'required',
                 'contact' => 'nullable|digits:10',
                 'query' => 'required',
-                'g-recaptcha-response' => [
+                'g-recaptcha' => [
                     'required',
                     new RecaptchaValidator,
                 ],
@@ -79,8 +79,6 @@ class Enquiry extends ComponentBase
 
     public function onRun(){
         $this->addJs('https://www.google.com/recaptcha/api.js');
-
-        $this->addJs('assets/js/main.js');
     }
 
     public function siteKey(){
