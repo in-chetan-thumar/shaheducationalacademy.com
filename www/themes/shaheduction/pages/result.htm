@@ -1,0 +1,34 @@
+title = "result"
+url = "/result"
+layout = "static"
+is_hidden = 0
+
+[galleryId]
+idGallery = 1
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "lg-slide"
+speed = 600
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 70
+width = 100
+resizer = "auto"
+==
+<div class="inner-content-wrapper">
+
+	<section id="thumbwrapper1" class="gallery-img-content" data-gallery-id="1" data-content-per-page="5" data-rating-type="off">
+    <input type="hidden" class="pagenum" value="1">
+    <ul id="huge_it_gallery1" class="huge_it_gallery view-thumbnails">
+    {% component 'galleryId' %}
+    </ul>
+    </section>
+</div>
