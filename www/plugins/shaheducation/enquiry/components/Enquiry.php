@@ -27,7 +27,6 @@ class Enquiry extends ComponentBase
                 'type' => Input::get('type'),
                 'contact' => Input::get('content'),
                 'query' => Input::get('query'),
-                'g-recaptcha' => Input::get('g-recaptcha'),
             ],
             [
                 'name' => 'required',
@@ -35,10 +34,6 @@ class Enquiry extends ComponentBase
                 'type' => 'required',
                 'contact' => 'nullable|digits:10',
                 'query' => 'required',
-                'g-recaptcha' => [
-                    'required',
-                    new RecaptchaValidator,
-                ],
             ]
         );
         if($validator->fails()){
@@ -47,7 +42,7 @@ class Enquiry extends ComponentBase
             $vars = ['name' => Input::get('name'), 'email' => Input::get('email'), 'contact' => Input::get('contact'),'type' => Input::get('type'),'query' => Input::get('query')];
             
             Mail::send('shaheducation.enquiry::emails.message', $vars, function($message) {
-                $message->to('ankita.mehta@tiez.nl', 'Admin Person');
+                $message->to(Settings::get('recipient_email'), 'Admin Person');
                 $message->subject('Enquiry');
             });
         }
