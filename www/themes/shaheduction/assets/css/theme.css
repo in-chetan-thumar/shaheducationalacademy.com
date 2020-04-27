@@ -3348,8 +3348,16 @@ div.saw_announcements.horizontal ul#saw_ticker-small_announcement {
 }
 
 ul#saw_ticker-small_announcement li {
-	height: 37px!important;
+    height: 37px!important;
+    pointer-events: none; 
+    cursor: default; 
 }
+
+ul#saw_ticker-small_announcement li a{
+    color :#000 !important;
+    font-weight: normal !important;
+}
+
 
 #contact_form_left {
 	float: left;

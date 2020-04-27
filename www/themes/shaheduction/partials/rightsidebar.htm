@@ -6,6 +6,9 @@ description = "rightsidebar"
 menu_id = 1
 
 [Enquiry]
+
+[menu menu2]
+menu_id = 2
 ==
 <!-- BEGIN .sidebar-right -->
 		<div class="sidebar-right page-content">
@@ -14,7 +17,7 @@ menu_id = 1
 			
 			<div class="widget saw_announcements horizontal">	
 			<h3 class="block-title">Announcement</h3>				
-			   {% partial "announcment" %}
+			  {% component 'menu2' %}
             </div>
             {%if this.page.id == "courses-undergraduate-courses-f-y-j-c" or this.page.id == "courses-undergraduate-courses-s-y-j-c"
                 or this.page.id == "courses-graduate-courses-b-com" or this.page.id == "courses-graduate-courses-b-m-s" or this.page.id ==
