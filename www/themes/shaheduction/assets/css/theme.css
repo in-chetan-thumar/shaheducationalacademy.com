@@ -3705,9 +3705,9 @@ end 15-4-2020
 #main-menu > li:last-child a span.sf-sub-indicator{
 	display: none;
 }
-
-#main-menu-wrapper > #main-menu > li:first-child{border-top: 3px solid #035398 !important;}
-
+.active-menu{
+    border-top: 3px solid #035398 !important;
+}
 #main-menu li .sf-sub-indicator {right: 2px;}
 #main-menu-wrapper > #main-menu > li:nth-child(1) a span,#main-menu-wrapper > #main-menu > li:nth-child(4) a span {
 	display: none;
