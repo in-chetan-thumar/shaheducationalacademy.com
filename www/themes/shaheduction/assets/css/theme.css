@@ -3788,7 +3788,17 @@ ul.teacher-4.ourtime-teacher{
 ul.teacher-4.ourtime-teacher li ul li {
     margin: 0 !important;
 }
+
 /* end 27-4-2020 */
+
+/*28-4-2020*/
+.captach-custome > form.flexiContactForm > .form-groups > .g-recaptcha > div {
+    width: !important;
+    transform: scale(0.7);
+    /* float: right; */
+    margin-left: -47px;
+}
+/*end 28-4-2020*/
 @media only screen and (max-width: 767px) {
 
 	#main-menu-wrapper > #main-menu{
