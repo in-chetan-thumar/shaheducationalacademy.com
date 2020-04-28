@@ -87,10 +87,10 @@ id = 1
         <script type="text/javascript">
             $(document).ready(function(){
                 $('#main-menu-wrapper').find('ul').attr('id', 'main-menu');
-
+                $('li').removeClass('active-menu');
+                $('#main-menu-wrapper ul li:first-child').addClass('active-menu');
                 $('.mobile-container').find('ul').attr('id', 'main-menu1');
-
-                // $('#main-menu-wrapper').find('ul li').attr('id', 'top_border');
+                $('#main-menu-wrapper').find('ul li').attr('id', 'top_border');
             });
         </script>
         <script type="text/javascript">
