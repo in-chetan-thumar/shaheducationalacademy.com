@@ -3792,11 +3792,14 @@ ul.teacher-4.ourtime-teacher li ul li {
 /* end 27-4-2020 */
 
 /*28-4-2020*/
-.captach-custome > form.flexiContactForm > .form-groups > .g-recaptcha > div {
+.captach-custome > form.flexiContactForm > .form-groups > .g-recaptcha > div{
     width: !important;
     transform: scale(0.7);
-    /* float: right; */
     margin-left: -47px;
+}
+.g-recaptcha > div > div > iframe {
+	/* transform: scale(0.7); */
+    /* margin-left: -47px; */
 }
 /*end 28-4-2020*/
 
