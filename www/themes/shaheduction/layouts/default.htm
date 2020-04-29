@@ -80,15 +80,14 @@ id = 1
             <!-- END .content-wrapper -->
         </div>
         {% partial "footer" %}
-        <script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="{{ 'assets/js/jquery.min.js' | theme }}"></script>
+        <script src="{{'assets/js/bootstrap.min.js'|theme }}"></script>
         <script type="text/javascript">
             $(document).ready(function(){
                 $('#main-menu-wrapper').find('ul').attr('id', 'main-menu');
                 $('li').removeClass('active-menu');
                 $('#main-menu-wrapper ul li:first-child').addClass('active-menu');
+                $('.sub-menu').find('li').removeClass('active-menu');
                 $('.mobile-container').find('ul').attr('id', 'main-menu1');
                 //$('#main-menu-wrapper').find('ul li').attr('id', 'top_border');
             });
