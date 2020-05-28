@@ -54,8 +54,9 @@
                 </p>
                 <p>
 					{% if __SELF__.enableCaptcha %}
-						<div class="g-recaptcha" name="captcha" data-sitekey="{{ __SELF__.siteKey }}"></div>
-					{% endif %}
+						<div class="g-recaptcha" name="g-recaptcha-response" data-sitekey="{{ __SELF__.siteKey }}"></div>
+					    <span style="color:red;">{{ errors.first('g-recaptcha-response') }}</span>
+                    {% endif %}
                 </p>
                 <p>
                     

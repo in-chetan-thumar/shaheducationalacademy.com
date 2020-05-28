@@ -94,12 +94,12 @@ class ContactForm extends ComponentBase{
         if($validator->fails()){
             return Redirect::back()->withErrors($validator);
         }
-
+        
         if($this->enableCaptcha()){
             // Validate with google if setting is enabled
             if(Settings::get('enable_server_captcha_validation')){
                 if(!$this->googleCaptchaPasses(post('g-recaptcha-response'))){
-                    throw new ValidationException(['g-recaptcha-response' => 'Captcha credentials are incorrect']);
+                    throw new ValidationException(['g-recaptcha-response' => 'Captcha Required']);
                 }
             }
         }
