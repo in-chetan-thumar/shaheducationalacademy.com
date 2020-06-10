@@ -215,7 +215,6 @@ if (window.jQuery.request !== undefined) {
              */
             handleConfirmMessage: function(message) {
                 var _event = jQuery.Event('ajaxConfirmMessage')
-                alert("here");
                 _event.promise = $.Deferred()
                 if ($(window).triggerHandler(_event, [message]) !== undefined) {
                     _event.promise.done(function() {
