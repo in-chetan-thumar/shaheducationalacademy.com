@@ -4,6 +4,7 @@ use Cms\Classes\ComponentBase;
 use Input;
 use Mail;
 use Validator;
+use ValidationException;
 use Redirect;
 use LaminSanneh\FlexiContact\Models\Settings;
 use Multiwebinc\Recaptcha\Validators\RecaptchaValidator;
@@ -42,7 +43,8 @@ class Enquiry extends ComponentBase
             ]
         );
         if($validator->fails()){
-            return Redirect::back()->withErrors($validator);
+            throw new ValidationException($validator);
+            //return Redirect::back()->withErrors($validator);
         }else{
             $vars = ['name' => Input::get('name'), 'email' => Input::get('email'), 'contact' => Input::get('contact'),'type' => Input::get('type'),
                 'query' => Input::get('query'),
@@ -81,6 +83,9 @@ class Enquiry extends ComponentBase
 
     public function onRun(){
         $this->addJs('https://www.google.com/recaptcha/api.js');
+        $this->addCss('assets/css/bootstrap.css');
+        $this->addJs('assets/js/bootstrap.js');
+        $this->addJs('assets/js/main.js');
     }
 
     public function siteKey(){

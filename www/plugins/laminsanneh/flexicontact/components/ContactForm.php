@@ -25,9 +25,9 @@ class ContactForm extends ComponentBase{
      * @var array
      */
     public $formValidationRules = [
+        'subject' => ['required'],
         'name' => ['required'],
         'email' => ['required', 'email'],
-        'subject' => ['required'],
         'yourmessage' => ['required'],
         'mobile' => ['numeric']
     ];
@@ -92,7 +92,8 @@ class ContactForm extends ComponentBase{
 
         // Validate
         if($validator->fails()){
-            return Redirect::back()->withErrors($validator);
+            throw new ValidationException($validator);
+            //return Redirect::back()->withErrors($validator);
         }
         
         if($this->enableCaptcha()){
