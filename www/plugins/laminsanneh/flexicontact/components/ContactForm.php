@@ -51,9 +51,9 @@ class ContactForm extends ComponentBase{
      */
     public function componentDetails()
     {
-        return [
-            'name' => 'laminsanneh.flexicontact::lang.strings.component_name',
-            'description' => 'laminsanneh.flexicontact::lang.strings.component_desc'
+          return [
+            'name'        => 'Enquiry Form',
+            'description' => 'Simple Enquiry form',
         ];
     }
 
