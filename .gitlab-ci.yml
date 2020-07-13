@@ -1,0 +1,38 @@
+variables:
+  GIT_SSL_NO_VERIFY: "true"
+stages:
+  - dev
+  - stag
+  - prod
+
+dev:
+  stage: dev
+
+  script:
+   - git fetch origin Staging
+   - git merge origin/Staging
+   - git push https://gitlab-ci-token:H4L62z5LM52mD1hqsc32@gitlab.tiez.net/root/shaheducationalacademy.com.git HEAD:Staging
+  tags:
+   - shaheducationalacademy
+  only:
+   - Development
+   
+stag:
+  stage: stag
+
+  script:
+   - ssh root@3.7.220.94 "cd /www/sites/shaheducationalacademy.com/; git pull"
+  tags:
+   - shaheducationalacademy
+  only:
+   - Staging
+  
+prod:
+  stage: prod
+
+  script:
+   - ssh root@3.7.220.94 "cd /www/sites/shaheducationalacademy.com/; git pull"
+  tags:
+   - shaheducationalacademy
+  only:
+   - master
