@@ -2,9 +2,9 @@
 
 namespace Illuminate\Foundation\Console;
 
-use RuntimeException;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
+use RuntimeException;
 
 class ViewClearCommand extends Command
 {
@@ -14,6 +14,15 @@ class ViewClearCommand extends Command
      * @var string
      */
     protected $name = 'view:clear';
+
+    /**
+     * The name of the console command.
+     *
+     * This name is used to identify the command during lazy loading.
+     *
+     * @var string|null
+     */
+    protected static $defaultName = 'view:clear';
 
     /**
      * The console command description.
@@ -46,6 +55,8 @@ class ViewClearCommand extends Command
      * Execute the console command.
      *
      * @return void
+     *
+     * @throws \RuntimeException
      */
     public function handle()
     {
@@ -59,6 +70,6 @@ class ViewClearCommand extends Command
             $this->files->delete($view);
         }
 
-        $this->info('Compiled views cleared!');
+        $this->info('Compiled views cleared successfully.');
     }
 }

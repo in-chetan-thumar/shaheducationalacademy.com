@@ -2,8 +2,8 @@
 
 namespace Illuminate\Queue\Console;
 
-use Illuminate\Support\Arr;
 use Illuminate\Console\Command;
+use Illuminate\Support\Arr;
 
 class ListFailedCommand extends Command
 {
@@ -15,6 +15,15 @@ class ListFailedCommand extends Command
     protected $name = 'queue:failed';
 
     /**
+     * The name of the console command.
+     *
+     * This name is used to identify the command during lazy loading.
+     *
+     * @var string|null
+     */
+    protected static $defaultName = 'queue:failed';
+
+    /**
      * The console command description.
      *
      * @var string
@@ -24,7 +33,7 @@ class ListFailedCommand extends Command
     /**
      * The table headers for the command.
      *
-     * @var array
+     * @var string[]
      */
     protected $headers = ['ID', 'Connection', 'Queue', 'Class', 'Failed At'];
 
@@ -35,8 +44,8 @@ class ListFailedCommand extends Command
      */
     public function handle()
     {
-        if (count($jobs = $this->getFailedJobs()) == 0) {
-            return $this->info('No failed jobs!');
+        if (count($jobs = $this->getFailedJobs()) === 0) {
+            return $this->comment('No failed jobs found.');
         }
 
         $this->displayFailedJobs($jobs);
@@ -66,7 +75,7 @@ class ListFailedCommand extends Command
     {
         $row = array_values(Arr::except($failed, ['payload', 'exception']));
 
-        array_splice($row, 3, 0, $this->extractJobName($failed['payload']));
+        array_splice($row, 3, 0, $this->extractJobName($failed['payload']) ?: '');
 
         return $row;
     }
@@ -92,17 +101,13 @@ class ListFailedCommand extends Command
      * Match the job name from the payload.
      *
      * @param  array  $payload
-     * @return string
+     * @return string|null
      */
     protected function matchJobName($payload)
     {
         preg_match('/"([^"]+)"/', $payload['data']['command'], $matches);
 
-        if (isset($matches[1])) {
-            return $matches[1];
-        }
-
-        return $payload['job'] ?? null;
+        return $matches[1] ?? $payload['job'] ?? null;
     }
 
     /**

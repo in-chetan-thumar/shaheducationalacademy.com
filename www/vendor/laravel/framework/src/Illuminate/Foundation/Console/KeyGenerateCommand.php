@@ -3,8 +3,8 @@
 namespace Illuminate\Foundation\Console;
 
 use Illuminate\Console\Command;
-use Illuminate\Encryption\Encrypter;
 use Illuminate\Console\ConfirmableTrait;
+use Illuminate\Encryption\Encrypter;
 
 class KeyGenerateCommand extends Command
 {
@@ -18,6 +18,15 @@ class KeyGenerateCommand extends Command
     protected $signature = 'key:generate
                     {--show : Display the key instead of modifying files}
                     {--force : Force the operation to run when in production}';
+
+    /**
+     * The name of the console command.
+     *
+     * This name is used to identify the command during lazy loading.
+     *
+     * @var string|null
+     */
+    protected static $defaultName = 'key:generate';
 
     /**
      * The console command description.
@@ -48,7 +57,7 @@ class KeyGenerateCommand extends Command
 
         $this->laravel['config']['app.key'] = $key;
 
-        $this->info("Application key [$key] set successfully.");
+        $this->info('Application key set successfully.');
     }
 
     /**

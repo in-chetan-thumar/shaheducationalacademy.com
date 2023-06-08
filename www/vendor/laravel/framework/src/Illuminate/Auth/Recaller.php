@@ -2,8 +2,6 @@
 
 namespace Illuminate\Auth;
 
-use Illuminate\Support\Str;
-
 class Recaller
 {
     /**
@@ -71,7 +69,7 @@ class Recaller
      */
     protected function properString()
     {
-        return is_string($this->recaller) && Str::contains($this->recaller, '|');
+        return is_string($this->recaller) && str_contains($this->recaller, '|');
     }
 
     /**
@@ -83,6 +81,6 @@ class Recaller
     {
         $segments = explode('|', $this->recaller);
 
-        return count($segments) == 3 && trim($segments[0]) !== '' && trim($segments[1]) !== '';
+        return count($segments) === 3 && trim($segments[0]) !== '' && trim($segments[1]) !== '';
     }
 }

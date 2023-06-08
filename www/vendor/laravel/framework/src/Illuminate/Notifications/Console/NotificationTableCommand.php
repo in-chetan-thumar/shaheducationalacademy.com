@@ -3,8 +3,8 @@
 namespace Illuminate\Notifications\Console;
 
 use Illuminate\Console\Command;
-use Illuminate\Support\Composer;
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Composer;
 
 class NotificationTableCommand extends Command
 {
@@ -14,6 +14,15 @@ class NotificationTableCommand extends Command
      * @var string
      */
     protected $name = 'notifications:table';
+
+    /**
+     * The name of the console command.
+     *
+     * This name is used to identify the command during lazy loading.
+     *
+     * @var string|null
+     */
+    protected static $defaultName = 'notifications:table';
 
     /**
      * The console command description.
@@ -38,7 +47,7 @@ class NotificationTableCommand extends Command
      * Create a new notifications table command instance.
      *
      * @param  \Illuminate\Filesystem\Filesystem  $files
-     * @param  \Illuminate\Support\Composer    $composer
+     * @param  \Illuminate\Support\Composer  $composer
      * @return void
      */
     public function __construct(Filesystem $files, Composer $composer)
@@ -60,7 +69,7 @@ class NotificationTableCommand extends Command
 
         $this->files->put($fullPath, $this->files->get(__DIR__.'/stubs/notifications.stub'));
 
-        $this->info('Migration created successfully!');
+        $this->info('Migration created successfully.');
 
         $this->composer->dumpAutoloads();
     }

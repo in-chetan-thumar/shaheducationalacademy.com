@@ -3,9 +3,12 @@
 namespace Illuminate\Foundation\Testing;
 
 use Illuminate\Contracts\Console\Kernel;
+use Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands;
 
 trait RefreshDatabase
 {
+    use CanConfigureMigrationCommands;
+
     /**
      * Define hooks to migrate the database before and after each test.
      *
@@ -16,6 +19,8 @@ trait RefreshDatabase
         $this->usingInMemoryDatabase()
                         ? $this->refreshInMemoryDatabase()
                         : $this->refreshTestDatabase();
+
+        $this->afterRefreshingDatabase();
     }
 
     /**
@@ -25,9 +30,9 @@ trait RefreshDatabase
      */
     protected function usingInMemoryDatabase()
     {
-        return config('database.connections')[
-            config('database.default')
-        ]['database'] == ':memory:';
+        $default = config('database.default');
+
+        return config("database.connections.$default.database") === ':memory:';
     }
 
     /**
@@ -37,9 +42,21 @@ trait RefreshDatabase
      */
     protected function refreshInMemoryDatabase()
     {
-        $this->artisan('migrate');
+        $this->artisan('migrate', $this->migrateUsing());
 
         $this->app[Kernel::class]->setArtisan(null);
+    }
+
+    /**
+     * The parameters that should be used when running "migrate".
+     *
+     * @return array
+     */
+    protected function migrateUsing()
+    {
+        return [
+            '--seed' => $this->shouldSeed(),
+        ];
     }
 
     /**
@@ -50,7 +67,7 @@ trait RefreshDatabase
     protected function refreshTestDatabase()
     {
         if (! RefreshDatabaseState::$migrated) {
-            $this->artisan('migrate:fresh');
+            $this->artisan('migrate:fresh', $this->migrateFreshUsing());
 
             $this->app[Kernel::class]->setArtisan(null);
 
@@ -70,14 +87,22 @@ trait RefreshDatabase
         $database = $this->app->make('db');
 
         foreach ($this->connectionsToTransact() as $name) {
-            $database->connection($name)->beginTransaction();
+            $connection = $database->connection($name);
+            $dispatcher = $connection->getEventDispatcher();
+
+            $connection->unsetEventDispatcher();
+            $connection->beginTransaction();
+            $connection->setEventDispatcher($dispatcher);
         }
 
         $this->beforeApplicationDestroyed(function () use ($database) {
             foreach ($this->connectionsToTransact() as $name) {
                 $connection = $database->connection($name);
+                $dispatcher = $connection->getEventDispatcher();
 
+                $connection->unsetEventDispatcher();
                 $connection->rollBack();
+                $connection->setEventDispatcher($dispatcher);
                 $connection->disconnect();
             }
         });
@@ -92,5 +117,15 @@ trait RefreshDatabase
     {
         return property_exists($this, 'connectionsToTransact')
                             ? $this->connectionsToTransact : [null];
+    }
+
+    /**
+     * Perform any work that should take place once the database has finished refreshing.
+     *
+     * @return void
+     */
+    protected function afterRefreshingDatabase()
+    {
+        // ...
     }
 }
