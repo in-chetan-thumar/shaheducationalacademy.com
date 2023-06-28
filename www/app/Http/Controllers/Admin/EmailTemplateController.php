@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\EmailTemplateRequest;
-use App\Mail\SendVideoInviteLinkMail;
 use Illuminate\Http\Request;
 use Spatie\MailTemplates\Models\MailTemplate;
 
